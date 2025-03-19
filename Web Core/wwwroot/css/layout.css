@@ -1,0 +1,77 @@
+﻿a.navbar-brand {
+   white-space: normal;
+   text-align: center;
+   word-break: break-all;
+}
+
+a {
+   color: #0077cc;
+}
+
+.btn-primary {
+   color: #fff;
+   background-color: #1b6ec2;
+   border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+   color: #fff;
+   background-color: #1b6ec2;
+   border-color: #1861ac;
+}
+
+.border-top {
+   border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+   border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+   font-size: 1rem;
+   line-height: inherit;
+}
+
+.footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   white-space: nowrap;
+   line-height: 60px;
+}
+
+.navbar-nav .nav-link {
+   color: #f8f9fa !important; /* Màu sáng hơn nhưng vẫn dễ đọc */
+   font-weight: bold !important;
+   transition: color 0.3s ease-in-out;
+}
+
+   .navbar-nav .nav-link:hover {
+      color: #ffb74d !important; /* Màu cam nhạt khi hover */
+   }
+
+/* Nút Đăng xuất */
+.navbar-nav .nav-item button {
+   color: #ffb74d !important;
+   background: none !important;
+   border: none !important;
+   font-weight: bold !important;
+   transition: color 0.3s ease-in-out;
+}
+
+   .navbar-nav .nav-item button:hover {
+   }
+
+.navbar-nav .nav-item .user-greeting {
+   color: #ffb74d !important; /* Màu vàng nổi bật */
+   font-weight: bold;
+   transition: color 0.3s ease-in-out;
+}
+
+   .navbar-nav .nav-item .user-greeting:hover {
+   }

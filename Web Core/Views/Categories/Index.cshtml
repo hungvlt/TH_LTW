@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Web_Core.Models.Category>
+
+<div class="container mt-4">
+   <div class="d-flex justify-content-between align-items-center">
+      <h2 class="text-primary">Danh sách danh mục</h2>
+      <a asp-action="Add" class="btn btn-primary">Thêm danh mục</a>
+   </div>
+
+   <table class="table table-hover mt-3 shadow-sm rounded">
+      <thead class="table-dark">
+         <tr>
+            <th>Tên danh mục</th>
+            <th class="text-center">Chức năng</th>
+         </tr>
+      </thead>
+      <tbody>
+         @foreach (var category in Model)
+         {
+            <tr>
+               <td>@category.Name</td>
+               <td class="text-center">
+                  <a asp-action="Update" asp-route-id="@category.Id" class="btn btn-warning btn-sm">Sửa</a>
+                  <a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-danger btn-sm">Xóa</a>
+               </td>
+            </tr>
+         }
+      </tbody>
+   </table>
+</div>

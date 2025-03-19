@@ -1,0 +1,146 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Quán Cà Phê Mộc Nhiên</title>
+
+	<!-- CSS FILES -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+	<link href="~/css/bootstrap.min.css" rel="stylesheet">
+	<link href="~/css/bootstrap-icons.css" rel="stylesheet">
+	<link href="~/css/vegas.min.css" rel="stylesheet">
+	<link href="~/css/tooplate-barista.css" rel="stylesheet">
+	<link href="~/css/layout.css" rel="stylesheet" asp-append-version="true">
+	<!-- Bootstrap icons-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+<body>
+	<main>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<a class="navbar-brand d-flex align-items-center" href="/">
+					<img src="~/images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="">
+					mocnhien.co
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Chuyển đổi điều hướng">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-lg-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="/">Trang chủ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section_2">Về chúng tôi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section_3">Thực đơn</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section_4">Nhận xét</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section_5">Liên hệ</a>
+						</li>
+						<partial name="_LoginPartial" />
+						<form class="d-flex">
+							<button class="btn btn-outline-dark" type="submit">
+								<i class="bi-cart-fill me-1"></i>
+								Giỏ hàng
+							</button>
+						</form>
+					</ul>
+					<div class="ms-lg-3">
+						<a class="btn custom-btn custom-border-btn" href="/Home/Reservation">
+							Đặt bàn
+							<i class="bi-arrow-up-right ms-2"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		@RenderBody() <!-- Nội dung của các trang sẽ được chèn vào đây -->
+
+		<footer class="site-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-12 me-auto">
+						<em class="text-white d-block mb-4">Chúng tôi ở đâu?</em>
+						<strong class="text-white">
+							<i class="bi-geo-alt me-2"></i>
+							Đại học HUTECH - Cơ sở Thủ Đức, TP. Hồ Chí Minh, Việt Nam
+						</strong>
+						<ul class="social-icon mt-4">
+							<li class="social-icon-item">
+								<a href="https://www.facebook.com/hungvlt.12" target="_blank" class="social-icon-link bi-facebook" title="Theo dõi chúng tôi trên Facebook"></a>
+							</li>
+							<li class="social-icon-item">
+								<a href="https://www.instagram.com/hungvlt.12/" target="_blank" class="social-icon-link bi-instagram" title="Xem ảnh đẹp trên Instagram"></a>
+							</li>
+							<li class="social-icon-item">
+								<a href="https://www.youtube.com/@@thehung.12" target="_blank" class="social-icon-link bi-youtube" title="Xem video trên YouTube"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
+						<em class="text-white d-block mb-4">Liên hệ</em>
+						<p class="d-flex mb-1">
+							<strong class="me-2">Điện thoại:</strong>
+							<a href="tel:0961673343" class="site-footer-link">(+84) 96 167 3343</a>
+						</p>
+						<p class="d-flex mb-1">
+							<strong class="me-2">Email:</strong>
+							<a href="mailto:hungvu01235@gmail.com" class="site-footer-link">hungvu01235@gmail.com</a>
+						</p>
+						<p class="d-flex">
+							<strong class="me-2">Hotline:</strong>
+							<a href="tel:12102004" class="site-footer-link">1210 2004</a>
+						</p>
+					</div>
+					<div class="col-lg-5 col-12">
+						<em class="text-white d-block mb-4">Giờ mở cửa</em>
+						<ul class="opening-hours-list">
+							<li class="d-flex">Thứ Hai - Thứ Sáu <span class="underline"></span> <strong>9:00 - 18:00</strong></li>
+							<li class="d-flex">Thứ Bảy <span class="underline"></span> <strong>11:00 - 16:30</strong></li>
+							<li class="d-flex">Chủ Nhật <span class="underline"></span> <strong>Đóng cửa</strong></li>
+						</ul>
+						<div class="mt-4">
+							<em class="text-white d-block mb-2">Ứng dụng của chúng tôi</em>
+							<p>
+								<a href="https://play.google.com/store" target="_blank" class="site-footer-link me-3">
+									<img src="~/images/google-play-badge.png" alt="Tải từ Google Play" style="height: 40px;">
+								</a>
+								<a href="https://www.apple.com/app-store/" target="_blank" class="site-footer-link">
+									<img src="~/images/app-store-badge.png" alt="Tải từ App Store" style="height: 40px;">
+								</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-8 col-12 mt-4">
+						<p class="copyright-text mb-0">Bản quyền © Quán Cà Phê Mộc Nhiên - Thiết kế: <a rel="sponsored" href="https://www.facebook.com/hungvlt.12" target="_blank">Vũ Lương Thế Hùng</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</main>
+
+	<!-- JAVASCRIPT FILES -->
+	<script src="~/js/jquery.min.js"></script>
+	<script src="~/js/bootstrap.min.js"></script>
+	<script src="~/js/jquery.sticky.js"></script>
+	<script src="~/js/click-scroll.js"></script>
+	<script src="~/js/vegas.min.js"></script>
+	<script src="~/js/custom.js"></script>
+
+	@RenderSection("Scripts", required: false)
+</body>
+</html>

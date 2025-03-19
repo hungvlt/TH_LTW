@@ -1,0 +1,26 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+	<li class="nav-item">
+		<a class="nav-link user-greeting" asp-area="Identity" asp-page="/Account/Manage/Index">
+			@(UserManager.GetUserAsync(User).Result.UserName.Split('@')[0])
+		</a>
+	</li>
+	<li class="nav-item">
+		<form id="logoutForm" class="nav-item m-0" asp-area="Identity" asp-page="/Account/Logout" method="post">
+			<button type="submit" class="nav-link btn btn-link text-dark border-0">Đăng xuất</button>
+		</form>
+	</li>
+}
+else
+{
+	<li class="nav-item">
+		<a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Đăng ký</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Đăng nhập</a>
+	</li>
+}

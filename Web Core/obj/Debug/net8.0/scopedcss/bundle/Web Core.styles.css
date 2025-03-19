@@ -1,0 +1,70 @@
+/* _content/Web Core/Views/Shared/_Layout.cshtml.rz.scp.css */
+a.navbar-brand[b-7fhmkn8xib] {
+   white-space: normal;
+   text-align: center;
+   word-break: break-all;
+}
+
+a[b-7fhmkn8xib] {
+   color: #0077cc;
+}
+
+.btn-primary[b-7fhmkn8xib] {
+   color: #fff;
+   background-color: #1b6ec2;
+   border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-7fhmkn8xib], .nav-pills .show > .nav-link[b-7fhmkn8xib] {
+   color: #fff;
+   background-color: #1b6ec2;
+   border-color: #1861ac;
+}
+
+.border-top[b-7fhmkn8xib] {
+   border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-7fhmkn8xib] {
+   border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-7fhmkn8xib] {
+   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-7fhmkn8xib] {
+   font-size: 1rem;
+   line-height: inherit;
+}
+
+.footer[b-7fhmkn8xib] {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   white-space: nowrap;
+   line-height: 60px;
+}
+
+.navbar-nav .nav-link[b-7fhmkn8xib] {
+   color: #ffffff !important; /* Thử màu trắng hoàn toàn */
+   font-weight: bold !important; /* Đậm hơn */
+   transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover[b-7fhmkn8xib] {
+   color: #ffcc00 !important; /* Thử đổi màu hover */
+}
+
+/* Nút Đăng xuất */
+.navbar-nav .nav-item button[b-7fhmkn8xib] {
+   color: #ffffff !important;
+   background: none !important;
+   border: none !important;
+   font-weight: bold !important;
+   transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item button:hover[b-7fhmkn8xib] {
+   color: #ffcc00 !important;
+}

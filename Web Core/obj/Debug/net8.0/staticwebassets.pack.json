@@ -1,0 +1,449 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\tooplate-barista.css",
+      "PackagePath": "staticwebassets\\css\\tooplate-barista.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\vegas.min.css",
+      "PackagePath": "staticwebassets\\css\\vegas.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\app-store-badge.png",
+      "PackagePath": "staticwebassets\\images\\app-store-badge.png"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\barman-with-fruits.jpg",
+      "PackagePath": "staticwebassets\\images\\barman-with-fruits.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\coffee-beans.png",
+      "PackagePath": "staticwebassets\\images\\coffee-beans.png"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\google-play-badge.png",
+      "PackagePath": "staticwebassets\\images\\google-play-badge.png"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\happy-loving-couple-bakers-drinking-coffee-looking-notebook.jpg",
+      "PackagePath": "staticwebassets\\images\\happy-loving-couple-bakers-drinking-coffee-looking-notebook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg",
+      "PackagePath": "staticwebassets\\images\\happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\mid-section-waitress-wiping-espresso-machine-with-napkin-cafa-c.jpg",
+      "PackagePath": "staticwebassets\\images\\mid-section-waitress-wiping-espresso-machine-with-napkin-cafa-c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\Black Ice Coffee Vietnamese Americano High Ball Glass, Black Coffee, Coffee, Beverage PNG Transparent Clipart Image and PSD File for Free Download.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\Black Ice Coffee Vietnamese Americano High Ball Glass, Black Coffee, Coffee, Beverage PNG Transparent Clipart Image and PSD File for Free Download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\bac_xiu.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\bac_xiu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\banh_mi_khong.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\banh_mi_khong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\banh_mi_nuong_muoi_ot.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\banh_mi_nuong_muoi_ot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\ca_phe_den.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\ca_phe_den.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\ca_phe_sua.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\ca_phe_sua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\hat_dua.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\hat_dua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\hat_huong_duong.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\hat_huong_duong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\khoai_tay_chien.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\khoai_tay_chien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\nuoc_cam_ep.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\nuoc_cam_ep.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\soda_chanh_day.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\soda_chanh_day.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\tra_dao_cam_sa.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\tra_dao_cam_sa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\tra_xanh_matcha.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\tra_xanh_matcha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\reviews\\senior-man-white-sweater-eyeglasses.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\senior-man-white-sweater-eyeglasses.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\reviews\\young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\reviews\\young-woman-with-round-glasses-yellow-sweater.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\young-woman-with-round-glasses-yellow-sweater.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\slides\\nhom-ban-di-ca-phe.jpg",
+      "PackagePath": "staticwebassets\\images\\slides\\nhom-ban-di-ca-phe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\slides\\sincere-laugh-showing-picture-smartphone-casual-meeting-with-best-friends-restaurant-terrace.jpg",
+      "PackagePath": "staticwebassets\\images\\slides\\sincere-laugh-showing-picture-smartphone-casual-meeting-with-best-friends-restaurant-terrace.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\team\\cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\team\\pexels-emre-akyol-320381804-18379867.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\pexels-emre-akyol-320381804-18379867.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\team\\portrait-elegant-old-man-wearing-suit.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\portrait-elegant-old-man-wearing-suit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\team\\small-business-owner-drinking-coffee.jpg",
+      "PackagePath": "staticwebassets\\images\\team\\small-business-owner-drinking-coffee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\user_image\\21967bb4-709f-4400-8004-8123248b9438.jpg",
+      "PackagePath": "staticwebassets\\images\\user_image\\21967bb4-709f-4400-8004-8123248b9438.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\user_image\\f202dde1-2ccf-4971-9ed1-14db4249932d.jpg",
+      "PackagePath": "staticwebassets\\images\\user_image\\f202dde1-2ccf-4971-9ed1-14db4249932d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg",
+      "PackagePath": "staticwebassets\\images\\young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\js\\click-scroll.js",
+      "PackagePath": "staticwebassets\\js\\click-scroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\js\\vegas.min.js",
+      "PackagePath": "staticwebassets\\js\\vegas.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\videos\\pexels-mike-jones-9046237.mp4",
+      "PackagePath": "staticwebassets\\videos\\pexels-mike-jones-9046237.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Web Core.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Web Core.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Web Core.props",
+      "PackagePath": "build\\Web Core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Web Core.props",
+      "PackagePath": "buildMultiTargeting\\Web Core.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Web Core.props",
+      "PackagePath": "buildTransitive\\Web Core.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

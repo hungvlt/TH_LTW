@@ -1,0 +1,442 @@
+﻿@{
+	ViewData["Title"] = "Trang chủ";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-12 mx-auto">
+				<h1>Mộc Nhiên</h1>
+				<p class="text-white mb-4 pb-lg-2">
+					cà phê <em>yêu thích</em> của bạn mỗi ngày.
+				</p>
+				<a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">Câu chuyện</a>
+				<a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3"><strong>Thực đơn</strong></a>
+			</div>
+		</div>
+	</div>
+	<div class="hero-slides"></div>
+</section>
+
+<section class="about-section section-padding" id="section_2" style="background-color: #2c1a12;">
+	<div class="section-overlay"></div>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-12">
+				<div class="ratio ratio-1x1">
+					<video autoplay loop muted class="custom-video" poster="">
+						<source src="~/videos/pexels-mike-jones-9046237.mp4" type="video/mp4">
+						Trình duyệt của bạn không hỗ trợ thẻ video.
+					</video>
+					<div class="about-video-info d-flex flex-column text-center">
+						<h4 class="mt-auto">Hành trình từ năm 2022</h4>
+						<h4>Quán cà phê yêu thích tại TP.HCM</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto text-center">
+				<em class="text-white">mocnhien.co</em>
+				<h2 class="text-white mb-3">Về chúng tôi</h2>
+				<p class="text-white">Mộc Nhiên ra đời từ niềm đam mê với cà phê và mong muốn mang đến một không gian ấm cúng cho mọi người. Từ những hạt cà phê được chọn lọc kỹ lưỡng, chúng tôi tạo nên những ly cà phê đậm đà hương vị.</p>
+				<p class="text-white">Quán được vận hành bởi một đội ngũ yêu nghề, luôn sẵn sàng chào đón bạn với nụ cười và sự tận tâm.</p>
+				<a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Gặp gỡ đội ngũ</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="barista-section section-padding" id="barista-team" style="background-color: #3f2a1d;">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
+				<em class="text-white">Đội ngũ của chúng tôi</em>
+				<h2 class="text-white">Gặp gỡ nhân viên</h2>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 mb-3">
+				<div class="team-block-wrap">
+					<div class="team-block-image-wrap">
+						<img src="~/images/team/portrait-elegant-old-man-wearing-suit.jpg" class="team-block-image img-fluid" alt="Anh Hùng - Chủ quán">
+					</div>
+					<div class="team-block-info d-flex flex-column text-center">
+						<div class="d-flex justify-content-center mt-3 mb-2">
+							<h4 class="text-white mb-0">Hùng</h4>
+							<p class="badge ms-3"><em>Chủ quán</em></p>
+						</div>
+						<p class="text-white mb-0">Người sáng lập đam mê mang cà phê Việt đến mọi nhà.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 mb-3">
+				<div class="team-block-wrap">
+					<div class="team-block-info d-flex flex-column text-center">
+						<div class="d-flex justify-content-center mb-2">
+							<h4 class="text-white mb-0">Linh</h4>
+							<p class="badge ms-3"><em>Quản lý</em></p>
+						</div>
+						<p class="text-white mb-3">Luôn đảm bảo mọi thứ vận hành hoàn hảo.</p>
+					</div>
+					<div class="team-block-image-wrap">
+						<img src="~/images/team/small-business-owner-drinking-coffee.jpg" class="team-block-image img-fluid" alt="Anh Linh - Quản lý">
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 mb-3">
+				<div class="team-block-wrap">
+					<div class="team-block-image-wrap">
+						<img src="~/images/team/pexels-emre-akyol-320381804-18379867.jpg" class="team-block-image img-fluid" alt="Anh Tài - Pha chế chính">
+					</div>
+					<div class="team-block-info d-flex flex-column text-center">
+						<div class="d-flex justify-content-center mt-3 mb-2">
+							<h4 class="text-white mb-0">Tài</h4>
+							<p class="badge ms-3"><em>Pha chế chính</em></p>
+						</div>
+						<p class="text-white mb-0">Chuyên gia tạo nên những ly cà phê đậm đà.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12 mb-3">
+				<div class="team-block-wrap">
+					<div class="team-block-info d-flex flex-column text-center">
+						<div class="d-flex justify-content-center mb-2">
+							<h4 class="text-white mb-0">Ngọc</h4>
+							<p class="badge ms-3"><em>Nhân viên phục vụ</em></p>
+						</div>
+						<p class="text-white mb-3">Mang đến nụ cười và sự thân thiện mỗi ngày.</p>
+					</div>
+					<div class="team-block-image-wrap">
+						<img src="~/images/team/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg" class="team-block-image img-fluid" alt="Em Ngọc - Nhân viên phục vụ">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="menu-section section-padding" id="section_3" style="background-color: #4a2f1e;">
+	<div class="container">
+		<div class="row justify-content-center mb-4">
+			<div class="col-lg-8 text-center">
+				<h2 class="text-white mb-0">Thực đơn của chúng tôi</h2>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<!-- Cột 1: Bánh ngọt & Đồ ăn nhẹ -->
+			<div class="col-lg-5 col-md-6">
+				<h3 class="text-white text-center mb-3">Bánh ngọt & Đồ ăn nhẹ</h3>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Bánh mì phô mai nướng</h6>
+							<strong class="ms-auto">35.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Bánh mì nướng giòn với phô mai tan chảy</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Bánh croissant</h6>
+							<strong class="text-white ms-auto"><del>50.000 VND</del></strong>
+							<strong class="ms-2">40.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Bánh sừng bò giòn thơm bơ</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Bánh tiramisu <span class="badge ms-3">Khuyên dùng</span></h6>
+							<strong class="ms-auto">55.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Bánh ngọt Ý với cà phê và kem mascarpone</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Bánh donut</h6>
+							<strong class="ms-auto">30.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Bánh vòng ngọt ngào phủ đường</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Bánh waffle</h6>
+							<strong class="ms-auto">45.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Waffle giòn thơm với mật ong</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Bánh pancake</h6>
+							<strong class="ms-auto">50.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Pancake mềm xốp với siro maple</small>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Cột 2: Đồ uống -->
+			<div class="col-lg-5 col-md-6">
+				<h3 class="text-white text-center mb-3">Đồ uống</h3>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Cà phê đen đá</h6>
+							<strong class="text-white ms-auto"><del>40.000 VND</del></strong>
+							<strong class="ms-2">30.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Cà phê đen Việt Nam nguyên chất</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Cà phê sữa đá <span class="badge ms-3">Khuyên dùng</span></h6>
+							<strong class="ms-auto">35.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Cà phê truyền thống với sữa đặc</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Latte</h6>
+							<strong class="ms-auto">45.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Cà phê sữa với bọt sữa mịn</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Trà đào cam sả</h6>
+							<strong class="ms-auto">40.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Trà đào thơm ngon với cam và sả</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Sinh tố xoài</h6>
+							<strong class="ms-auto">50.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Xoài xay nhuyễn với sữa tươi</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Matcha Latte</h6>
+							<strong class="ms-auto">55.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Matcha Nhật Bản pha cùng sữa</small>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block-wrap">
+					<div class="menu-block">
+						<div class="d-flex">
+							<h6>Trà sữa trân châu</h6>
+							<strong class="ms-auto">45.000 VND</strong>
+						</div>
+						<div class="border-top mt-2 pt-2">
+							<small>Trà sữa truyền thống với trân châu</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="reviews-section section-padding" id="section_4" style="background-color: #5a4031;">
+	<div class="container">
+		<div class="row justify-content-center mb-5">
+			<div class="col-lg-12 col-12 text-center">
+				<em class="text-white d-block mb-2">Ý kiến khách hàng</em>
+				<h2 class="text-white">Đánh giá từ bạn</h2>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-lg-10 col-12">
+				<div class="timeline">
+					<div class="timeline-container timeline-container-left mb-4">
+						<div class="timeline-content">
+							<div class="reviews-block">
+								<div class="reviews-block-image-wrap d-flex align-items-center">
+									<img src="~/images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg" class="reviews-block-image img-fluid" alt="Chị Lan - Khách hàng">
+									<div>
+										<h6 class="text-white mb-0">Chị Lan</h6>
+										<em class="text-white">Khách hàng</em>
+									</div>
+								</div>
+								<div class="reviews-block-info">
+									<p>"Quán yên tĩnh, cà phê sữa đá rất đúng gu, nhân viên thân thiện lắm!"</p>
+									<div class="d-flex border-top pt-3 mt-4">
+										<strong class="text-white">4.8 <small class="ms-2">Điểm</small></strong>
+										<div class="reviews-group ms-auto">
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-half"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="timeline-container timeline-container-right mb-4">
+						<div class="timeline-content">
+							<div class="reviews-block">
+								<div class="reviews-block-image-wrap d-flex align-items-center">
+									<img src="~/images/reviews/senior-man-white-sweater-eyeglasses.jpg" class="reviews-block-image img-fluid" alt="Bác Nam - Khách hàng">
+									<div>
+										<h6 class="text-white mb-0">Bác Nam</h6>
+										<em class="text-white">Khách hàng</em>
+									</div>
+								</div>
+								<div class="reviews-block-info">
+									<p>"Cà phê đen đậm vị, giá cả hợp lý, thích hợp để ngồi đọc sách."</p>
+									<div class="d-flex border-top pt-3 mt-4">
+										<strong class="text-white">4.6 <small class="ms-2">Điểm</small></strong>
+										<div class="reviews-group ms-auto">
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-half"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="timeline-container timeline-container-left mb-4">
+						<div class="timeline-content">
+							<div class="reviews-block">
+								<div class="reviews-block-image-wrap d-flex align-items-center">
+									<img src="~/images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg" class="reviews-block-image img-fluid" alt="Em Linh - Khách hàng">
+									<div>
+										<h6 class="text-white mb-0">Em Linh</h6>
+										<em class="text-white">Khách hàng</em>
+									</div>
+								</div>
+								<div class="reviews-block-info">
+									<p>"Trà đào cam sả quá ngon, không gian xinh, rất hợp để chụp ảnh!"</p>
+									<div class="d-flex border-top pt-3 mt-4">
+										<strong class="text-white">4.9 <small class="ms-2">Điểm</small></strong>
+										<div class="reviews-group ms-auto">
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-half"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="timeline-container timeline-container-right mb-4">
+						<div class="timeline-content">
+							<div class="reviews-block">
+								<div class="reviews-block-image-wrap d-flex align-items-center">
+									<img src="~/images/reviews/placeholder.jpg" class="reviews-block-image img-fluid" alt="Anh Tuấn - Khách hàng">
+									<div>
+										<h6 class="text-white mb-0">Anh Tuấn</h6>
+										<em class="text-white">Khách hàng</em>
+									</div>
+								</div>
+								<div class="reviews-block-info">
+									<p>"Bánh croissant ngon tuyệt, latte mịn và thơm, sẽ ghé lại thường xuyên!"</p>
+									<div class="d-flex border-top pt-3 mt-4">
+										<strong class="text-white">4.7 <small class="ms-2">Điểm</small></strong>
+										<div class="reviews-group ms-auto">
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-fill"></i>
+											<i class="bi-star-half"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="contact-section section-padding" id="section_5">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-12">
+				<em class="text-white">Nói xin chào</em>
+				<h2 class="text-white mb-4 pb-lg-2">Liên hệ</h2>
+			</div>
+			<div class="col-lg-6 col-12">
+				<form asp-action="Contact" method="post" class="custom-form contact-form" role="form">
+					<div class="row">
+						<div class="col-lg-6 col-12">
+							<label for="name" class="form-label">Tên <sup class="text-danger">*</sup></label>
+							<input type="text" name="Name" id="name" class="form-control" placeholder="Họ và tên" required="@true" />
+						</div>
+						<div class="col-lg-6 col-12">
+							<label for="email" class="form-label">Email <sup class="text-danger">*</sup></label>
+							<input type="email" name="Email" id="email" class="form-control" placeholder="abc@gmail.com" required="@true" />
+						</div>
+						<div class="col-12">
+							<label for="message" class="form-label">Chúng tôi có thể giúp gì cho bạn?</label>
+							<textarea name="Message" rows="4" class="form-control" id="message" placeholder="Tin nhắn" required="@true"></textarea>
+						</div>
+					</div>
+					<div class="col-lg-5 col-12 mx-auto mt-3">
+						<button type="submit" class="form-control">Gửi tin nhắn</button>
+					</div>
+				</form>
+				@if (ViewBag.Message != null)
+				{
+					<div class="alert alert-success mt-3">@ViewBag.Message</div>
+				}
+			</div>
+			<div class="col-lg-6 col-12 mx-auto mt-5 mt-lg-0 ps-lg-5">
+				<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4913.3293870433845!2d106.78303187590652!3d10.855743457723902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175276e7ea103df%3A0xb6cf10bb7d719327!2sHUTECH%20University%20-%20Thu%20Duc%20Campus!5e1!3m2!1sen!2sth!4v1740623709825!5m2!1sen!2sth" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+		</div>
+	</div>
+</section>

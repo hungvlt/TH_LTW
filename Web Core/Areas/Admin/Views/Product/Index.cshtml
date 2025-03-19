@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Web_Core.Models.Product>
+
+<h2 class="text-center text-primary my-4">DANH SÁCH SẢN PHẨM</h2>
+
+<table class="table table-striped table-hover table-bordered shadow">
+	<thead class="table-dark">
+		<tr class="text-center">
+			<th>Hình ảnh</th>
+			<th>Tên sản phẩm</th>
+			<th>Giá</th>
+			<th>Mô tả</th>
+			<th>Loại</th>
+			<th>Chức năng</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var product in Model)
+		{
+			<tr class="align-middle">
+				<td class="text-center">
+					@if (!string.IsNullOrEmpty(product.ImageUrl))
+					{
+						<img src="@product.ImageUrl" alt="Ảnh sản phẩm"
+							  class="img-thumbnail rounded" style="width: 80px; height: 80px; object-fit: cover;" />
+					}
+				</td>
+
+				<td>@product.Name</td>
+				<td class="text-success fw-bold">@product.Price.ToString("N0") VNĐ</td>
+				<td>@product.Description</td>
+				<td>@product.Category?.Name</td>
+				<td class="text-center">
+					<a asp-action="Display" asp-route-id="@product.Id" class="btn btn-info btn-sm">Xem</a>
+					<a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning btn-sm">Sửa</a>
+					<a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger btn-sm">Xóa</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<form method="get">
+	<label for="categoryFilter">Chọn danh mục:</label>
+	<select name="categoryId" id="categoryFilter" onchange="this.form.submit()">
+		<option value="">Tất cả</option>
+		@foreach (var category in ViewBag.Categories)
+		{
+			<option value="@category.Value" selected="@(category.Value == ViewBag.SelectedCategory?.ToString() ? "selected" : null)">
+				@category.Text
+			</option>
+		}
+	</select>
+</form>
+
+<a asp-action="Add" class="btn btn-primary mt-3">Thêm Sản Phẩm</a>
+
+<!-- PHÂN TRANG -->
+@if (ViewBag.TotalPages > 1)
+{
+	<nav aria-label="Pagination">
+		<ul class="pagination justify-content-center mt-4">
+			@if (ViewBag.CurrentPage > 1)
+			{
+				<li class="page-item">
+					<a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage - 1)">«</a>
+				</li>
+			}
+
+			@for (int i = 1; i <= ViewBag.TotalPages; i++)
+			{
+				<li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+					<a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+				</li>
+			}
+
+			@if (ViewBag.CurrentPage < ViewBag.TotalPages)
+			{
+				<li class="page-item">
+					<a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage + 1)">»</a>
+				</li>
+			}
+		</ul>
+	</nav>
+}

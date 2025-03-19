@@ -1,0 +1,29 @@
+﻿@model Web_Core.Models.Product
+
+<div class="container mt-4">
+   <div class="card shadow-lg p-4">
+      <div class="row">
+         <!-- Cột trái: Hình ảnh -->
+         <div class="col-md-5 text-center">
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+               <img src="@Model.ImageUrl" alt="Ảnh sản phẩm" class="img-fluid rounded shadow-sm" style="max-width: 100%;" />
+            }
+            else
+            {
+               <img src="https://via.placeholder.com/300" alt="Không có ảnh" class="img-fluid rounded shadow-sm" />
+            }
+         </div>
+
+         <!-- Cột phải: Thông tin -->
+         <div class="col-md-7">
+            <h2 class="text-primary">@Model.Name</h2>
+            <h4 class="text-danger">Giá: @Model.Price VNĐ</h4>
+            <p class="text-muted">@Model.Description</p>
+            <p><strong>Loại:</strong> @Model.Category?.Name</p>
+
+            <a asp-action="Index" class="btn btn-secondary mt-3">Quay về danh sách</a>
+         </div>
+      </div>
+   </div>
+</div>

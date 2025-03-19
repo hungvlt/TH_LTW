@@ -1,0 +1,155 @@
+﻿@{
+	ViewData["Title"] = "Đặt bàn";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="booking-section section-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-12 mx-auto">
+				<div class="booking-form-wrap">
+					<div class="row">
+						<div class="col-lg-7 col-12 p-0">
+							<form class="custom-form booking-form" asp-action="Reservation" method="post" role="form">
+								<div class="text-center mb-4 pb-lg-2">
+									<h2 class="text-white">Đặt bàn</h2>
+								</div>
+								<div class="booking-form-body">
+									<div class="row">
+										<div class="col-lg-6 col-12">
+											<input type="text" name="Name" id="booking-form-name" class="form-control" placeholder="Họ và tên" required="@true">
+										</div>
+										<div class="col-lg-6 col-12">
+											<input type="tel" class="form-control" name="Phone" placeholder="Số điện thoại" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required="@true">
+										</div>
+										<div class="col-lg-6 col-12">
+											<input class="form-control" type="time" name="Time" value="18:30">
+										</div>
+										<div class="col-lg-6 col-12">
+											<input type="date" name="Date" id="booking-form-date" class="form-control" placeholder="Ngày" required="@true">
+										</div>
+										<div class="col-lg-12 col-12">
+											<input type="number" name="NumberOfPeople" id="booking-form-number" class="form-control" placeholder="Số người" required="@true">
+											<textarea name="Message" rows="3" class="form-control" id="booking-form-message" placeholder="Ghi chú"></textarea>
+										</div>
+										<div class="col-lg-4 col-md-10 col-8 mx-auto mt-2">
+											<button type="button" class="form-control" id="previewBooking">Gửi</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-lg-5 col-12 p-0">
+							<div class="booking-form-image-wrap">
+								<img src="~/images/barman-with-fruits.jpg" class="booking-form-image img-fluid" alt="Hình ảnh nhân viên pha chế">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Xác nhận -->
+	<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content p-4 rounded-4 shadow-lg">
+				<div class="modal-header text-center border-0">
+					<h4 class="modal-title w-100 text-primary">Xác nhận thông tin đặt bàn</h4>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-6">
+							<label class="form-label fw-bold">Họ và tên:</label>
+							<div class="form-control bg-light" id="confirmName"></div>
+						</div>
+						<div class="col-md-6">
+							<label class="form-label fw-bold">Số điện thoại:</label>
+							<div class="form-control bg-light" id="confirmPhone"></div>
+						</div>
+						<div class="col-md-6">
+							<label class="form-label fw-bold">Thời gian:</label>
+							<div class="form-control bg-light" id="confirmTime"></div>
+						</div>
+						<div class="col-md-6">
+							<label class="form-label fw-bold">Ngày:</label>
+							<div class="form-control bg-light" id="confirmDate"></div>
+						</div>
+						<div class="col-md-6">
+							<label class="form-label fw-bold">Số người:</label>
+							<div class="form-control bg-light" id="confirmNumber"></div>
+						</div>
+						<div class="col-12">
+							<label class="form-label fw-bold">Ghi chú:</label>
+							<div class="form-control bg-light" id="confirmMessage"></div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer border-0">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chỉnh sửa</button>
+					<button type="button" class="btn btn-success" id="confirmSubmit">Xác nhận</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<style>
+	/* Định dạng modal giống như form nhập */
+	.modal-content {
+		background-color: #fff;
+		border-radius: 10px;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	}
+
+	.modal-header h4 {
+		font-weight: bold;
+	}
+
+	/* Định dạng các ô thông tin trong modal */
+	.form-control.bg-light {
+		border: 1px solid #ddd;
+		padding: 10px;
+		font-size: 1rem;
+		border-radius: 5px;
+		background-color: #f8f9fa; /* Màu nền giống input */
+	}
+
+	/* Chỉnh nút giống như form */
+	.btn-success {
+		background-color: #28a745;
+		border-color: #28a745;
+		padding: 10px 20px;
+	}
+
+		.btn-success:hover {
+			background-color: #218838;
+		}
+
+	.btn-secondary {
+		padding: 10px 20px;
+	}
+</style>
+
+
+<script>
+	document.getElementById("previewBooking").addEventListener("click", function () {
+		// Lấy dữ liệu từ form
+		document.getElementById("confirmName").textContent = document.querySelector("[name='Name']").value;
+		document.getElementById("confirmPhone").textContent = document.querySelector("[name='Phone']").value;
+		document.getElementById("confirmTime").textContent = document.querySelector("[name='Time']").value;
+		document.getElementById("confirmDate").textContent = document.querySelector("[name='Date']").value;
+		document.getElementById("confirmNumber").textContent = document.querySelector("[name='NumberOfPeople']").value;
+		document.getElementById("confirmMessage").textContent = document.querySelector("[name='Message']").value;
+
+		// Hiển thị modal xác nhận
+		var confirmModal = new bootstrap.Modal(document.getElementById('confirmModal'));
+		confirmModal.show();
+	});
+
+	document.getElementById("confirmSubmit").addEventListener("click", function () {
+		// Khi xác nhận, submit form
+		document.querySelector(".booking-form").submit();
+	});
+</script>

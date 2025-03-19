@@ -1,0 +1,38 @@
+﻿@* @model IEnumerable<Web_Core.Models.User> *@
+
+@* <h2 class="text-center text-primary my-4">DANH SÁCH NGƯỜI DÙNG</h2> *@
+
+@* <table class="table table-striped table-hover table-bordered shadow"> *@
+@* 	<thead class="table-dark"> *@
+@* 		<tr class="text-center"> *@
+@* 			<th>Ảnh đại diện</th> *@
+@* 			<th>Tên</th> *@
+@* 			<th>Email</th> *@
+@* 			<th>Vai trò</th> *@
+@* 			<th>Chức năng</th> *@
+@* 		</tr> *@
+@* 	</thead> *@
+@* 	<tbody> *@
+@* 		@foreach (var user in Model) *@
+@* 		{ *@
+@* 			<tr class="align-middle"> *@
+@* 				<td class="text-center"> *@
+@* 					@if (!string.IsNullOrEmpty(user.AvatarUrl)) *@
+@* 					{ *@
+@* 						<img src="@user.AvatarUrl" alt="Ảnh đại diện" id="previewImage" class="img-thumbnail rounded shadow-lg" style="max-width: 150px; height: 150px; border: 2px solid blue; border-radius: 10%;" /> *@
+@* 					} *@
+@* 				</td> *@
+@* 				<td>@user.Name</td> *@
+@* 				<td>@user.Email</td> *@
+@* 				<td class="fw-bold text-success">@user.Role</td> *@
+@* 				<td class="text-center"> *@
+@* 					<a asp-action="Display" asp-route-id="@user.ID" class="btn btn-info btn-sm">Xem</a> *@
+@* 					<a asp-action="Update" asp-route-id="@user.ID" class="btn btn-warning btn-sm">Sửa</a> *@
+@* 					<a asp-action="Delete" asp-route-id="@user.ID" class="btn btn-danger btn-sm">Xóa</a> *@
+@* 				</td> *@
+@* 			</tr> *@
+@* 		} *@
+@* 	</tbody> *@
+@* </table> *@
+
+@* <a asp-action="Add" class="btn btn-primary mt-3">Thêm Người Dùng</a> *@

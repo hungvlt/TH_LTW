@@ -1,0 +1,77 @@
+﻿@* @model Web_Core.Models.User *@
+
+@* @{ *@
+@*    ViewData["Title"] = "Cập nhật người dùng"; *@
+@* } *@
+
+@* <div class="container mt-4"> *@
+@*    <h2 class="text-center text-primary">Cập Nhật Người Dùng</h2> *@
+
+@*    <form asp-action="Update" method="post" enctype="multipart/form-data" class="shadow p-4 bg-white rounded"> *@
+@*       <input type="hidden" asp-for="ID" /> *@
+
+@*       <div class="row"> *@
+@*          <!-- Cột trái --> *@
+@*          <div class="col-md-6"> *@
+@*             <div class="mb-3"> *@
+@*                <label asp-for="Name" class="form-label fw-bold">Họ và Tên</label> *@
+@*                <input asp-for="Name" class="form-control" placeholder="Nhập họ và tên" /> *@
+@*                <span asp-validation-for="Name" class="text-danger"></span> *@
+@*             </div> *@
+
+@*             <div class="mb-3"> *@
+@*                <label asp-for="Email" class="form-label fw-bold">Email</label> *@
+@*                <input asp-for="Email" type="email" class="form-control" placeholder="Nhập email" /> *@
+@*                <span asp-validation-for="Email" class="text-danger"></span> *@
+@*             </div> *@
+
+@*             <div class="mb-3"> *@
+@*                <label asp-for="Password" class="form-label fw-bold">Mật khẩu</label> *@
+@*                <input asp-for="Password" type="password" class="form-control" placeholder="Nhập mật khẩu mới" /> *@
+@*                <span asp-validation-for="Password" class="text-danger"></span> *@
+@*             </div> *@
+
+@*             <div class="mb-3"> *@
+@*                <label asp-for="Role" class="form-label fw-bold">Vai trò</label> *@
+@*                <select asp-for="Role" class="form-select"> *@
+@*                   <option value="Admin" selected="@(Model.Role == "Admin")">Admin</option> *@
+@*                   <option value="User" selected="@(Model.Role == "User")">User</option> *@
+@*                </select> *@
+@*             </div> *@
+@*          </div> *@
+
+@*          <!-- Cột phải --> *@
+@*          <div class="col-md-6"> *@
+@*             <div class="mb-3"> *@
+@*                <label asp-for="AvatarUrl" class="form-label fw-bold">Ảnh đại diện</label> *@
+@*                <input type="file" asp-for="AvatarUrl" class="form-control" id="imageInput" /> *@
+@*             </div> *@
+
+@*             <!-- Hiển thị ảnh xem trước --> *@
+@*             <div class="text-center"> *@
+@*                <img src="@Model.AvatarUrl" alt="Ảnh đại diện" id="previewImage" class="img-thumbnail rounded-circle shadow-sm" style="max-width: 150px; height: 150px;" /> *@
+@*             </div> *@
+@*          </div> *@
+@*       </div> *@
+
+@*       <!-- Nút Cập nhật --> *@
+@*       <div class="text-center mt-4"> *@
+@*          <button type="submit" class="btn btn-success px-4">Cập nhật</button> *@
+@*          <a asp-action="Index" class="btn btn-secondary px-4 ms-2">Hủy</a> *@
+@*       </div> *@
+@*    </form> *@
+@* </div> *@
+
+@* <!-- Script Xem trước ảnh --> *@
+@* <script> *@
+@*    document.getElementById('imageInput').addEventListener('change', function (event) { *@
+@*        const file = event.target.files[0]; *@
+@*        if (file) { *@
+@*            const reader = new FileReader(); *@
+@*            reader.onload = function (e) { *@
+@*                document.getElementById("previewImage").src = e.target.result; *@
+@*            }; *@
+@*            reader.readAsDataURL(file); *@
+@*        } *@
+@*    }); *@
+@* </script> *@
