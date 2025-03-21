@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\areas\\admin\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\areas\\admin\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\wwwroot\\css\\logout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\wwwroot\\css\\logout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|c:\\users\\hung\\downloads\\ca_phe\\web core\\web core\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ED3D8EE7-EED9-4C46-925E-0AA9F30E17C9}|Web Core\\Web Core.csproj|solutionrelative:web core\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,73 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShoppingCart.cs",
-              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Models\\ShoppingCart.cs",
-              "RelativeDocumentMoniker": "Web Core\\Models\\ShoppingCart.cs",
-              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Models\\ShoppingCart.cs",
-              "RelativeToolTip": "Web Core\\Models\\ShoppingCart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:20:28.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "Web Core\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Models\\CartItem.cs",
-              "RelativeToolTip": "Web Core\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:18:53.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SessionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Extensions\\SessionExtensions.cs",
-              "RelativeDocumentMoniker": "Web Core\\Extensions\\SessionExtensions.cs",
-              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Extensions\\SessionExtensions.cs",
-              "RelativeToolTip": "Web Core\\Extensions\\SessionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:16:11.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Program.cs",
-              "RelativeDocumentMoniker": "Web Core\\Program.cs",
-              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Program.cs",
-              "RelativeToolTip": "Web Core\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:12:38.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Web Core\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Web Core\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T15:03:16.751Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
@@ -139,52 +78,133 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Web Core\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Web Core\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T04:11:58.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Web Core\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Web Core\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T03:06:58.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Web Core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Web Core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T02:59:09.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Admin\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "Web Core\\Areas\\Admin\\Views\\Admin\\ManageUsers.cshtml",
+              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Admin\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeToolTip": "Web Core\\Areas\\Admin\\Views\\Admin\\ManageUsers.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T02:20:33.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Web Core\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Web Core\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:17:52.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "register.css",
+              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\register.css",
+              "RelativeDocumentMoniker": "Web Core\\wwwroot\\css\\register.css",
+              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\register.css",
+              "RelativeToolTip": "Web Core\\wwwroot\\css\\register.css",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-21T01:16:58.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "logout.css",
+              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\logout.css",
+              "RelativeDocumentMoniker": "Web Core\\wwwroot\\css\\logout.css",
+              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\logout.css",
+              "RelativeToolTip": "Web Core\\wwwroot\\css\\logout.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-21T01:15:47.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Web Core\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Web Core\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYBAAAAAAAAAADwvy8BAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-19T14:57:17.308Z",
+              "WhenOpened": "2025-03-21T01:05:34.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "Web Core\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "Web Core\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-17T04:47:39.137Z"
+              "DocumentIndex": 9,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "Web Core\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "Web Core\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-21T01:04:04.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Web Core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Web Core\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web Core\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Web Core\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAqwLIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-17T04:47:04.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Web Core\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Web Core\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-17T04:42:00.684Z"
+              "WhenOpened": "2025-03-21T00:54:05.268Z",
+              "EditorCaption": ""
             }
           ]
         }

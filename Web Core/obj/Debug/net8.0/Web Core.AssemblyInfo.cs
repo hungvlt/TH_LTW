@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Web Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be13d38bc0ad5ce591ccfce472dc4784922080ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Web Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Web Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

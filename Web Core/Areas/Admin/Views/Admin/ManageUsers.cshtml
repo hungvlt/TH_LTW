@@ -1,0 +1,78 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Web_Core.Models
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+   ViewData["Title"] = "Quản lý người dùng";
+   var roles = ViewBag.Roles as List<IdentityRole> ?? new List<IdentityRole>();
+   var userRoles = ViewBag.UserRoles as Dictionary<string, string> ?? new Dictionary<string, string>();
+}
+
+<h2 class="mb-4 text-center text-uppercase fw-bold">Quản lý người dùng</h2>
+
+<div class="table-responsive">
+   <table class="table table-hover align-middle text-center">
+      <thead class="table-dark">
+         <tr>
+            <th class="text-uppercase">Tên đăng nhập</th>
+            <th class="text-uppercase">Email</th>
+            <th class="text-uppercase">Quyền hiện tại</th>
+            <th class="text-uppercase">Cập nhật quyền</th>
+         </tr>
+      </thead>
+      <tbody>
+         @foreach (var user in Model)
+         {
+            var userRoleId = userRoles.ContainsKey(user.Id) ? userRoles[user.Id] : "";
+            var currentRole = roles.FirstOrDefault(r => r.Id == userRoleId);
+            var isAdmin = currentRole?.Name == "Admin";
+
+            <tr>
+               <td class="fw-semibold">@user.UserName</td>
+               <td>@user.Email</td>
+               <td>
+                  @if (currentRole != null)
+                  {
+                     <span class="badge bg-success">@currentRole.Name</span>
+                  }
+                  else
+                  {
+                     <span class="badge bg-secondary">Chưa có quyền</span>
+                  }
+               </td>
+               <td>
+                  @if (isAdmin)
+                  {
+                     <span class="text-muted">Không thể chỉnh sửa</span>
+                  }
+                  else
+                  {
+                     <form method="post" asp-action="UpdateUserRole" asp-area="Admin" asp-controller="Admin" class="d-flex gap-2 align-items-center">
+                        <input type="hidden" name="userId" value="@user.Id" />
+                        <select name="roleId" class="form-select w-auto">
+                           @foreach (var role in roles)
+                           {
+                              <option value="@role.Id" selected="@(role.Id == userRoleId ? "selected" : null)">@role.Name</option>
+                           }
+                        </select>
+                        <button type="submit" class="btn btn-primary btn-sm">
+                           <i class="bi bi-save"></i> Lưu
+                        </button>
+                     </form>
+                  }
+               </td>
+            </tr>
+         }
+      </tbody>
+   </table>
+</div>
+
+<script>
+   document.querySelectorAll('form').forEach(form => {
+       form.addEventListener('submit', function (event) {
+           let userId = this.querySelector('input[name="userId"]').value;
+           let roleId = this.querySelector('select[name="roleId"]').value;
+           console.log(`🔹 Gửi request: User ID = ${userId}, Role ID = ${roleId}`);
+       });
+   });
+</script>

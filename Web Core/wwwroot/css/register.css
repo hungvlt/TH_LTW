@@ -1,0 +1,75 @@
+﻿/* Căn giữa nội dung */
+.row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 80vh;
+}
+
+/* Tiêu đề */
+h1 {
+   text-align: center;
+   font-size: 2rem;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 20px;
+}
+
+/* Form đăng ký */
+#registerForm {
+   background: #fff;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Fields */
+.form-floating input,
+.form-floating select {
+   border-radius: 8px;
+   border: 1px solid #ddd;
+   box-shadow: none;
+   transition: all 0.3s ease-in-out;
+}
+
+   .form-floating input:focus,
+   .form-floating select:focus {
+      border-color: #007bff;
+      box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+   }
+
+/* Nút đăng ký */
+#registerSubmit {
+   font-size: 1.2rem;
+   font-weight: bold;
+   color: white;
+   background-color: #28a745;
+   border: none;
+   padding: 12px 20px;
+   border-radius: 8px;
+   transition: all 0.3s ease-in-out;
+}
+
+   #registerSubmit:hover {
+      background-color: #218838;
+      transform: scale(1.05);
+      color: white;
+   }
+
+/* Nút đăng nhập bằng dịch vụ khác */
+#external-account button {
+   margin: 5px 0;
+   width: 100%;
+   border-radius: 8px;
+   font-size: 1rem;
+}
+
+/* Hiển thị lỗi */
+.text-danger {
+   font-size: 0.9rem;
+}
+
+/* Phần đăng ký bằng dịch vụ khác */
+.col-md-6 {
+   margin-top: 30px;
+}

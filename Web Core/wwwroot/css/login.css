@@ -1,0 +1,78 @@
+﻿/* Căn giữa form login */
+.row {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 80vh;
+}
+
+/* Card chứa form login */
+.col-md-4 {
+   background: #fff;
+   padding: 2rem;
+   border-radius: 12px;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề đăng nhập */
+h1 {
+   text-align: center;
+   font-weight: bold;
+   color: #333;
+}
+
+/* Nút đăng nhập */
+#login-submit {
+   margin-top: 10px;
+   border-radius: 8px;
+   font-weight: bold;
+   transition: all 0.3s ease-in-out;
+}
+
+   #login-submit:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+   }
+
+/* Form control đẹp hơn */
+.form-control {
+   border-radius: 8px;
+   border: 1px solid #ccc;
+   transition: all 0.3s ease-in-out;
+}
+
+   .form-control:focus {
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+      border-color: #007bff;
+   }
+
+/* Checkbox nhớ mật khẩu */
+.checkbox {
+   display: flex;
+   align-items: center;
+}
+
+/* Link đăng ký, quên mật khẩu */
+a {
+   color: #007bff;
+   text-decoration: none;
+   transition: color 0.3s ease-in-out;
+}
+
+   a:hover {
+      color: #0056b3;
+      text-decoration: underline;
+   }
+
+/* Đăng nhập bằng dịch vụ khác */
+#external-account button {
+   margin-top: 10px;
+   width: 100%;
+   border-radius: 8px;
+   font-weight: bold;
+   transition: all 0.3s ease-in-out;
+}
+
+   #external-account button:hover {
+      transform: scale(1.05);
+   }

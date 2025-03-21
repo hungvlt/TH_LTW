@@ -1,6 +1,9 @@
 wwwroot\css\bootstrap.min.css
 wwwroot\css\bootstrap-icons.css
 wwwroot\css\layout.css
+wwwroot\css\login.css
+wwwroot\css\logout.css
+wwwroot\css\register.css
 wwwroot\css\site.css
 wwwroot\css\tooplate-barista.css
 wwwroot\css\vegas.min.css
@@ -18,7 +21,9 @@ wwwroot\images\product_image\bac_xiu.jpg
 wwwroot\images\product_image\banh_mi_khong.jpg
 wwwroot\images\product_image\banh_mi_nuong_muoi_ot.jpg
 wwwroot\images\product_image\Black Ice Coffee Vietnamese Americano High Ball Glass, Black Coffee, Coffee, Beverage PNG Transparent Clipart Image and PSD File for Free Download.jpg
+wwwroot\images\product_image\bong_lan_trung_muoi.jpg
 wwwroot\images\product_image\ca_phe_den.jpg
+wwwroot\images\product_image\ca_phe_mocha.jpg
 wwwroot\images\product_image\ca_phe_sua.jpg
 wwwroot\images\product_image\hat_dua.jpg
 wwwroot\images\product_image\hat_huong_duong.jpg

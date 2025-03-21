@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\css\\layout.css"
     },
     {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\logout.css",
+      "PackagePath": "staticwebassets\\css\\logout.css"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
       "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -81,8 +93,16 @@
       "PackagePath": "staticwebassets\\images\\product_image\\banh_mi_nuong_muoi_ot.jpg"
     },
     {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\bong_lan_trung_muoi.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\bong_lan_trung_muoi.jpg"
+    },
+    {
       "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\ca_phe_den.jpg",
       "PackagePath": "staticwebassets\\images\\product_image\\ca_phe_den.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\ca_phe_mocha.jpg",
+      "PackagePath": "staticwebassets\\images\\product_image\\ca_phe_mocha.jpg"
     },
     {
       "Id": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\wwwroot\\images\\product_image\\ca_phe_sua.jpg",

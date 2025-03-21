@@ -19,54 +19,220 @@
 	<link href="~/css/vegas.min.css" rel="stylesheet">
 	<link href="~/css/tooplate-barista.css" rel="stylesheet">
 	<link href="~/css/layout.css" rel="stylesheet" asp-append-version="true">
+	<link href="~/css/login.css" rel="stylesheet" />
+	<link href="~/css/logout.css" rel="stylesheet" />
+	<link href="~/css/register.css" rel="stylesheet" />
 	<!-- Bootstrap icons-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
 <body>
-	<main>
+	<main style="margin-top: 100px;">
+		@* <nav class="navbar navbar-expand-lg"> *@
+		@* 	<div class="container"> *@
+		@* 		<a class="navbar-brand d-flex align-items-center" href="/"> *@
+		@* 			<img src="~/images/coffee-beans.png" class="navbar-brand-image img-fluid" alt=""> *@
+		@* 			mocnhien.co *@
+		@* 		</a> *@
+		@* 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Chuyển đổi điều hướng"> *@
+		@* 			<span class="navbar-toggler-icon"></span> *@
+		@* 		</button> *@
+		@* 		<div class="collapse navbar-collapse" id="navbarNav"> *@
+		@* 			<ul class="navbar-nav ms-lg-auto"> *@
+		@* 				<li class="nav-item"> *@
+		@* 					<a class="nav-link" href="/">Trang chủ</a> *@
+		@* 				</li> *@
+		@* 				<li class="nav-item"> *@
+		@* 					<a class="nav-link" href="#section_2">Về chúng tôi</a> *@
+		@* 				</li> *@
+		@* 				<li class="nav-item"> *@
+		@* 					<a class="nav-link" href="#section_3">Thực đơn</a> *@
+		@* 				</li> *@
+		@* 				<li class="nav-item"> *@
+		@* 					<a class="nav-link" href="#section_4">Nhận xét</a> *@
+		@* 				</li> *@
+		@* 				<li class="nav-item"> *@
+		@* 					<a class="nav-link" href="#section_5">Liên hệ</a> *@
+		@* 				</li> *@
+		@* 				<partial name="_LoginPartial" /> *@
+		@* 				<form class="d-flex"> *@
+		@* 					<button class="btn btn-outline-dark" type="submit"> *@
+		@* 						<i class="bi-cart-fill me-1"></i> *@
+		@* 						Giỏ hàng *@
+		@* 					</button> *@
+		@* 				</form> *@
+		@* 			</ul> *@
+		@* 			<div class="ms-lg-3"> *@
+		@* 				<a class="btn custom-btn custom-border-btn" href="/Home/Reservation"> *@
+		@* 					Đặt bàn *@
+		@* 					<i class="bi-arrow-up-right ms-2"></i> *@
+		@* 				</a> *@
+		@* 			</div> *@
+		@* 		</div> *@
+		@* 	</div> *@
+		@* </nav> *@
+
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
-				<a class="navbar-brand d-flex align-items-center" href="/">
-					<img src="~/images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="">
-					mocnhien.co
+				<!-- Logo thương hiệu -->
+				<a class="navbar-brand" href="/">
+					<img src="~/images/coffee-beans.png" alt=""> mocnhien.co
 				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Chuyển đổi điều hướng">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ms-lg-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="/">Trang chủ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#section_2">Về chúng tôi</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#section_3">Thực đơn</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#section_4">Nhận xét</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#section_5">Liên hệ</a>
-						</li>
+
+				<!-- Menu chính -->
+				<div class="navbar-nav">
+					<a class="nav-link" href="/">Trang chủ</a>
+					<a class="nav-link" href="#section_2">Về chúng tôi</a>
+					<a class="nav-link" href="#section_3">Thực đơn</a>
+					<a class="nav-link" href="#section_4">Nhận xét</a>
+					<a class="nav-link" href="#section_5">Liên hệ</a>
+				</div>
+
+				<!-- Nhóm bên phải: Đăng nhập, Đăng ký, Giỏ hàng, Đặt bàn -->
+				<div class="nav-right">
+					<a class="nav-icon" href="/Home/Reservation">
+						<i class="bi bi-calendar-check"></i> Đặt bàn
+					</a>
+					<a class="nav-icon" href="/ShoppingCart/Index">
+						<i class="bi bi-cart-fill"></i> Giỏ hàng
+					</a>
+					<ul class="navbar-nav">
 						<partial name="_LoginPartial" />
-						<form class="d-flex">
-							<button class="btn btn-outline-dark" type="submit">
-								<i class="bi-cart-fill me-1"></i>
-								Giỏ hàng
-							</button>
-						</form>
 					</ul>
-					<div class="ms-lg-3">
-						<a class="btn custom-btn custom-border-btn" href="/Home/Reservation">
-							Đặt bàn
-							<i class="bi-arrow-up-right ms-2"></i>
-						</a>
-					</div>
 				</div>
 			</div>
 		</nav>
+
+		<style>
+			/* Thanh Navbar */
+			.navbar {
+				background-color: #4a2f1e;
+				padding: 8px 15px;
+				min-height: 55px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+
+			/* Logo */
+			.navbar-brand {
+				font-size: 20px; /* Chỉnh lại size chữ */
+				display: flex;
+				align-items: center;
+				gap: 5px;
+				text-decoration: none;
+				color: white;
+				font-weight: bold;
+			}
+
+				.navbar-brand img {
+					height: 32px; /* Logo to hơn 1 chút */
+				}
+
+			/* Menu chính */
+			.navbar-nav {
+				display: flex;
+				gap: 15px;
+				justify-content: center;
+			}
+
+				.navbar-nav .nav-link {
+					font-size: 14px;
+					padding: 6px 10px;
+					color: white;
+					text-transform: uppercase;
+					text-decoration: none;
+					font-weight: 500;
+					transition: 0.3s ease-in-out;
+				}
+
+					.navbar-nav .nav-link:hover {
+						color: #ffcc80;
+					}
+
+			/* Nhóm bên phải */
+			.nav-right {
+				display: flex;
+				align-items: center;
+				gap: 15px;
+			}
+
+			/* Icon + nút */
+			.nav-icon {
+				font-size: 14px;
+				color: white;
+				text-decoration: none;
+				display: flex;
+				align-items: center;
+				gap: 5px;
+				font-weight: 500;
+				transition: 0.3s ease-in-out;
+			}
+
+				.nav-icon i {
+					font-size: 16px;
+				}
+
+				.nav-icon:hover {
+					color: #ffcc80;
+				}
+
+			/* Đăng ký & Đăng nhập */
+			.nav-right .btn-sm {
+				font-size: 13px; /* Giảm size chữ */
+				padding: 6px 14px;
+				border-radius: 6px;
+				font-weight: bold;
+			}
+
+			/* Nút Đăng ký */
+			.nav-right .btn-outline-light {
+				color: white;
+				border: 2px solid white; /* Viền rõ hơn */
+				border-radius: 6px;
+				padding: 6px 14px;
+				transition: 0.3s ease-in-out;
+			}
+
+				.nav-right .btn-outline-light:hover {
+					background-color: white;
+					color: #4a2f1e;
+				}
+
+			/* Nút Đăng nhập */
+			.nav-right .btn-primary {
+				background-color: #ff9800;
+				border: 2px solid #ff9800;
+				border-radius: 6px;
+				padding: 6px 14px;
+				color: white;
+				transition: 0.3s ease-in-out;
+			}
+
+				.nav-right .btn-primary:hover {
+					background-color: #e68900;
+					border-color: #e68900;
+				}
+
+			/* Form đăng xuất */
+			.nav-right form {
+				margin: 0;
+				padding: 0;
+				display: inline;
+			}
+
+				.nav-right form button {
+					background: none;
+					border: none;
+					color: white;
+					padding: 5px 10px;
+					cursor: pointer;
+					transition: 0.3s ease-in-out;
+				}
+
+					.nav-right form button:hover {
+						color: #ffcc80;
+					}
+		</style>
 
 		@RenderBody() <!-- Nội dung của các trang sẽ được chèn vào đây -->
 
