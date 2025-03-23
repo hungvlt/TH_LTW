@@ -3,6 +3,7 @@
 
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +14,9 @@
 	<!-- CSS FILES -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,600;0,700;1,200;1,700&display=swap"
+		rel="stylesheet">
 	<link href="~/css/bootstrap.min.css" rel="stylesheet">
 	<link href="~/css/bootstrap-icons.css" rel="stylesheet">
 	<link href="~/css/vegas.min.css" rel="stylesheet">
@@ -25,52 +28,9 @@
 	<!-- Bootstrap icons-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
+
 <body>
 	<main style="margin-top: 100px;">
-		@* <nav class="navbar navbar-expand-lg"> *@
-		@* 	<div class="container"> *@
-		@* 		<a class="navbar-brand d-flex align-items-center" href="/"> *@
-		@* 			<img src="~/images/coffee-beans.png" class="navbar-brand-image img-fluid" alt=""> *@
-		@* 			mocnhien.co *@
-		@* 		</a> *@
-		@* 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Chuyển đổi điều hướng"> *@
-		@* 			<span class="navbar-toggler-icon"></span> *@
-		@* 		</button> *@
-		@* 		<div class="collapse navbar-collapse" id="navbarNav"> *@
-		@* 			<ul class="navbar-nav ms-lg-auto"> *@
-		@* 				<li class="nav-item"> *@
-		@* 					<a class="nav-link" href="/">Trang chủ</a> *@
-		@* 				</li> *@
-		@* 				<li class="nav-item"> *@
-		@* 					<a class="nav-link" href="#section_2">Về chúng tôi</a> *@
-		@* 				</li> *@
-		@* 				<li class="nav-item"> *@
-		@* 					<a class="nav-link" href="#section_3">Thực đơn</a> *@
-		@* 				</li> *@
-		@* 				<li class="nav-item"> *@
-		@* 					<a class="nav-link" href="#section_4">Nhận xét</a> *@
-		@* 				</li> *@
-		@* 				<li class="nav-item"> *@
-		@* 					<a class="nav-link" href="#section_5">Liên hệ</a> *@
-		@* 				</li> *@
-		@* 				<partial name="_LoginPartial" /> *@
-		@* 				<form class="d-flex"> *@
-		@* 					<button class="btn btn-outline-dark" type="submit"> *@
-		@* 						<i class="bi-cart-fill me-1"></i> *@
-		@* 						Giỏ hàng *@
-		@* 					</button> *@
-		@* 				</form> *@
-		@* 			</ul> *@
-		@* 			<div class="ms-lg-3"> *@
-		@* 				<a class="btn custom-btn custom-border-btn" href="/Home/Reservation"> *@
-		@* 					Đặt bàn *@
-		@* 					<i class="bi-arrow-up-right ms-2"></i> *@
-		@* 				</a> *@
-		@* 			</div> *@
-		@* 		</div> *@
-		@* 	</div> *@
-		@* </nav> *@
-
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
 				<!-- Logo thương hiệu -->
@@ -103,19 +63,26 @@
 		</nav>
 
 		<style>
+			main {
+				padding-top: 70px;
+				/* Điều chỉnh tùy theo chiều cao thực tế của navbar */
+			}
+
 			/* Thanh Navbar */
 			.navbar {
-				background-color: #4a2f1e;
-				padding: 8px 15px;
-				min-height: 55px;
-				display: flex;
-				align-items: center;
-				justify-content: space-between;
+				min-height: 100px;
+				/* Đảm bảo navbar có cùng chiều cao */
+				position: absolute;
+				top: 0;
+				width: 100%;
+				background: rgba(74, 47, 30, 0.9);
+				z-index: 1000;
 			}
 
 			/* Logo */
 			.navbar-brand {
-				font-size: 20px; /* Chỉnh lại size chữ */
+				font-size: 20px;
+				/* Chỉnh lại size chữ */
 				display: flex;
 				align-items: center;
 				gap: 5px;
@@ -124,9 +91,10 @@
 				font-weight: bold;
 			}
 
-				.navbar-brand img {
-					height: 32px; /* Logo to hơn 1 chút */
-				}
+			.navbar-brand img {
+				height: 32px;
+				/* Logo to hơn 1 chút */
+			}
 
 			/* Menu chính */
 			.navbar-nav {
@@ -135,19 +103,19 @@
 				justify-content: center;
 			}
 
-				.navbar-nav .nav-link {
-					font-size: 14px;
-					padding: 6px 10px;
-					color: white;
-					text-transform: uppercase;
-					text-decoration: none;
-					font-weight: 500;
-					transition: 0.3s ease-in-out;
-				}
+			.navbar-nav .nav-link {
+				font-size: 14px;
+				padding: 6px 10px;
+				color: white;
+				text-transform: uppercase;
+				text-decoration: none;
+				font-weight: 500;
+				transition: 0.3s ease-in-out;
+			}
 
-					.navbar-nav .nav-link:hover {
-						color: #ffcc80;
-					}
+			.navbar-nav .nav-link:hover {
+				color: #ffcc80;
+			}
 
 			/* Nhóm bên phải */
 			.nav-right {
@@ -168,17 +136,18 @@
 				transition: 0.3s ease-in-out;
 			}
 
-				.nav-icon i {
-					font-size: 16px;
-				}
+			.nav-icon i {
+				font-size: 16px;
+			}
 
-				.nav-icon:hover {
-					color: #ffcc80;
-				}
+			.nav-icon:hover {
+				color: #ffcc80;
+			}
 
 			/* Đăng ký & Đăng nhập */
 			.nav-right .btn-sm {
-				font-size: 13px; /* Giảm size chữ */
+				font-size: 13px;
+				/* Giảm size chữ */
 				padding: 6px 14px;
 				border-radius: 6px;
 				font-weight: bold;
@@ -187,16 +156,17 @@
 			/* Nút Đăng ký */
 			.nav-right .btn-outline-light {
 				color: white;
-				border: 2px solid white; /* Viền rõ hơn */
+				border: 2px solid white;
+				/* Viền rõ hơn */
 				border-radius: 6px;
 				padding: 6px 14px;
 				transition: 0.3s ease-in-out;
 			}
 
-				.nav-right .btn-outline-light:hover {
-					background-color: white;
-					color: #4a2f1e;
-				}
+			.nav-right .btn-outline-light:hover {
+				background-color: white;
+				color: #4a2f1e;
+			}
 
 			/* Nút Đăng nhập */
 			.nav-right .btn-primary {
@@ -208,10 +178,10 @@
 				transition: 0.3s ease-in-out;
 			}
 
-				.nav-right .btn-primary:hover {
-					background-color: #e68900;
-					border-color: #e68900;
-				}
+			.nav-right .btn-primary:hover {
+				background-color: #e68900;
+				border-color: #e68900;
+			}
 
 			/* Form đăng xuất */
 			.nav-right form {
@@ -220,18 +190,18 @@
 				display: inline;
 			}
 
-				.nav-right form button {
-					background: none;
-					border: none;
-					color: white;
-					padding: 5px 10px;
-					cursor: pointer;
-					transition: 0.3s ease-in-out;
-				}
+			.nav-right form button {
+				background: none;
+				border: none;
+				color: white;
+				padding: 5px 10px;
+				cursor: pointer;
+				transition: 0.3s ease-in-out;
+			}
 
-					.nav-right form button:hover {
-						color: #ffcc80;
-					}
+			.nav-right form button:hover {
+				color: #ffcc80;
+			}
 		</style>
 
 		@RenderBody() <!-- Nội dung của các trang sẽ được chèn vào đây -->
@@ -247,13 +217,16 @@
 						</strong>
 						<ul class="social-icon mt-4">
 							<li class="social-icon-item">
-								<a href="https://www.facebook.com/hungvlt.12" target="_blank" class="social-icon-link bi-facebook" title="Theo dõi chúng tôi trên Facebook"></a>
+								<a href="https://www.facebook.com/hungvlt.12" target="_blank"
+									class="social-icon-link bi-facebook" title="Theo dõi chúng tôi trên Facebook"></a>
 							</li>
 							<li class="social-icon-item">
-								<a href="https://www.instagram.com/hungvlt.12/" target="_blank" class="social-icon-link bi-instagram" title="Xem ảnh đẹp trên Instagram"></a>
+								<a href="https://www.instagram.com/hungvlt.12/" target="_blank"
+									class="social-icon-link bi-instagram" title="Xem ảnh đẹp trên Instagram"></a>
 							</li>
 							<li class="social-icon-item">
-								<a href="https://www.youtube.com/@@thehung.12" target="_blank" class="social-icon-link bi-youtube" title="Xem video trên YouTube"></a>
+								<a href="https://www.youtube.com/@@thehung.12" target="_blank"
+									class="social-icon-link bi-youtube" title="Xem video trên YouTube"></a>
 							</li>
 						</ul>
 					</div>
@@ -275,7 +248,8 @@
 					<div class="col-lg-5 col-12">
 						<em class="text-white d-block mb-4">Giờ mở cửa</em>
 						<ul class="opening-hours-list">
-							<li class="d-flex">Thứ Hai - Thứ Sáu <span class="underline"></span> <strong>9:00 - 18:00</strong></li>
+							<li class="d-flex">Thứ Hai - Thứ Sáu <span class="underline"></span> <strong>9:00 - 18:00</strong>
+							</li>
 							<li class="d-flex">Thứ Bảy <span class="underline"></span> <strong>11:00 - 16:30</strong></li>
 							<li class="d-flex">Chủ Nhật <span class="underline"></span> <strong>Đóng cửa</strong></li>
 						</ul>
@@ -292,7 +266,8 @@
 						</div>
 					</div>
 					<div class="col-lg-8 col-12 mt-4">
-						<p class="copyright-text mb-0">Bản quyền © Quán Cà Phê Mộc Nhiên - Thiết kế: <a rel="sponsored" href="https://www.facebook.com/hungvlt.12" target="_blank">Vũ Lương Thế Hùng</a></p>
+						<p class="copyright-text mb-0">Bản quyền © Quán Cà Phê Mộc Nhiên - Thiết kế: <a rel="sponsored"
+								href="https://www.facebook.com/hungvlt.12" target="_blank">Vũ Lương Thế Hùng</a></p>
 					</div>
 				</div>
 			</div>
@@ -309,4 +284,5 @@
 
 	@RenderSection("Scripts", required: false)
 </body>
+
 </html>

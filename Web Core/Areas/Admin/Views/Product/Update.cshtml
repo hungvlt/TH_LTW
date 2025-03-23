@@ -2,6 +2,7 @@
 @using Microsoft.AspNetCore.Mvc.Rendering
 @{
 	ViewData["Title"] = "Điều chỉnh sản phẩm";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div class="container mt-4">
@@ -27,7 +28,8 @@
 
 				<div class="mb-3">
 					<label asp-for="Description" class="form-label fw-bold">Mô tả</label>
-					<textarea asp-for="Description" class="form-control" rows="3" placeholder="Nhập mô tả sản phẩm"></textarea>
+					<textarea asp-for="Description" class="form-control" rows="3"
+						placeholder="Nhập mô tả sản phẩm"></textarea>
 					<span asp-validation-for="Description" class="text-danger"></span>
 				</div>
 
@@ -46,7 +48,8 @@
 
 				<!-- Hiển thị ảnh xem trước -->
 				<div class="text-center">
-					<img src="@Model.ImageUrl" alt="Ảnh sản phẩm" id="previewImage" class="img-thumbnail" style="max-width: 200px; height: auto;" />
+					<img src="@Model.ImageUrl" alt="Ảnh sản phẩm" id="previewImage" class="img-thumbnail"
+						style="max-width: 200px; height: auto;" />
 				</div>
 			</div>
 		</div>

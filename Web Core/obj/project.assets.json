@@ -8491,31 +8491,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hung\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/thehung/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Web Core.csproj",
+      "projectUniqueName": "/Users/thehung/TH_LTW/Web Core/Web Core.csproj",
       "projectName": "Web Core",
-      "projectPath": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\Web Core.csproj",
-      "packagesPath": "C:\\Users\\Hung\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hung\\Downloads\\ca_phe\\Web Core\\Web Core\\obj\\",
+      "projectPath": "/Users/thehung/TH_LTW/Web Core/Web Core.csproj",
+      "packagesPath": "/Users/thehung/.nuget/packages/",
+      "outputPath": "/Users/thehung/TH_LTW/Web Core/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Hung\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/thehung/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8533,8 +8526,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -8590,7 +8582,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

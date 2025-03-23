@@ -1,10 +1,16 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging; // Import Logger
+using Web_Core.Areas.Admin.Models;
 using Web_Core.Models;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.WebUtilities;
+using System.Text;
+using System.Text.Encodings.Web;
+using Microsoft.AspNetCore.Identity.UI.Services; // Import EmailSender Service
 
 namespace Web_Core.Areas.Admin.Controllers
 {
@@ -14,15 +20,22 @@ namespace Web_Core.Areas.Admin.Controllers
    {
       private readonly UserManager<ApplicationUser> _userManager;
       private readonly RoleManager<IdentityRole> _roleManager;
+      private readonly ILogger<AdminController> _logger; // Logger
+      private readonly IEmailSender _emailSender; // Email Sender
 
-      public AdminController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+      public AdminController(
+          UserManager<ApplicationUser> userManager,
+          RoleManager<IdentityRole> roleManager,
+          ILogger<AdminController> logger, // Inject Logger
+          IEmailSender emailSender) // Inject EmailSender
       {
          _userManager = userManager;
          _roleManager = roleManager;
+         _logger = logger;
+         _emailSender = emailSender;
       }
 
-      // Hiển thị danh sách người dùng
-      public async Task<IActionResult> ManageUsers()
+      public async Task<IActionResult> Index(string userId = null, string roleId = null)
       {
          var users = _userManager.Users.ToList();
          var roles = _roleManager.Roles.ToList();
@@ -32,54 +45,99 @@ namespace Web_Core.Areas.Admin.Controllers
          {
             var roleNames = await _userManager.GetRolesAsync(user);
             var role = roles.FirstOrDefault(r => roleNames.Contains(r.Name));
-
             if (role != null)
             {
                userRoles[user.Id] = role.Id;
             }
          }
 
+         if (!string.IsNullOrEmpty(userId) && !string.IsNullOrEmpty(roleId))
+         {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null) return NotFound("Người dùng không tồn tại.");
+
+            var role = await _roleManager.FindByIdAsync(roleId);
+            if (role == null) return BadRequest("Vai trò không hợp lệ.");
+
+            var currentRoles = await _userManager.GetRolesAsync(user);
+            if (currentRoles.Contains("Admin"))
+            {
+               return BadRequest("Không thể thay đổi quyền của Admin.");
+            }
+
+            var removeResult = await _userManager.RemoveFromRolesAsync(user, currentRoles);
+            if (!removeResult.Succeeded)
+            {
+               return BadRequest("Không thể xóa quyền cũ.");
+            }
+
+            var addResult = await _userManager.AddToRoleAsync(user, role.Name);
+            if (!addResult.Succeeded)
+            {
+               return BadRequest("Không thể cập nhật quyền mới.");
+            }
+
+            return RedirectToAction("Index");
+         }
+
          ViewBag.Roles = roles;
          ViewBag.UserRoles = userRoles;
+         return View(users);
+      }
 
-         return View(users); // Hiển thị tất cả user
+      [HttpGet]
+      public IActionResult RegisterEmployee()
+      {
+         return View();
       }
 
       [HttpPost]
-      public async Task<IActionResult> UpdateUserRole(string userId, string roleId)
+      [ValidateAntiForgeryToken]
+      public async Task<IActionResult> RegisterEmployee(RegisterViewModel model)
       {
-         var user = await _userManager.FindByIdAsync(userId);
-         if (user == null) return NotFound("Người dùng không tồn tại.");
-
-         var role = await _roleManager.FindByIdAsync(roleId);
-         if (role == null) return BadRequest("Vai trò không hợp lệ.");
-
-         var currentRoles = await _userManager.GetRolesAsync(user);
-
-         // Nếu user là Admin, không cho phép cập nhật quyền
-         if (currentRoles.Contains("Admin"))
+         if (!ModelState.IsValid)
          {
-            Console.WriteLine($"❌ Không thể thay đổi quyền của Admin: {user.UserName}");
-            return BadRequest("Không thể thay đổi quyền của Admin.");
+            return View(model);
          }
 
-         Console.WriteLine($"🔹 Cập nhật quyền: {user.UserName} - {string.Join(", ", currentRoles)} -> {role.Name}");
-
-         var removeResult = await _userManager.RemoveFromRolesAsync(user, currentRoles);
-         if (!removeResult.Succeeded)
+         var user = new ApplicationUser
          {
-            Console.WriteLine("❌ Lỗi khi xóa quyền cũ.");
-            return BadRequest("Không thể xóa quyền cũ.");
+            FullName = model.FullName,
+            UserName = model.Email,
+            Email = model.Email
+         };
+
+         var result = await _userManager.CreateAsync(user, model.Password);
+
+         if (result.Succeeded)
+         {
+            // Gán vai trò mặc định là Employee
+            var roleResult = await _userManager.AddToRoleAsync(user, "Employee");
+
+            if (!roleResult.Succeeded)
+            {
+               ModelState.AddModelError("", "Lỗi khi gán vai trò Employee.");
+               return View(model);
+            }
+
+            // Gửi email xác nhận (nếu cần)
+            var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+            var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Scheme);
+
+            await _emailSender.SendEmailAsync(model.Email, "Xác nhận tài khoản",
+                $"Vui lòng xác nhận tài khoản bằng cách <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>nhấn vào đây</a>.");
+
+            TempData["SuccessMessage"] = "Đăng ký nhân viên thành công!";
+            return RedirectToAction("Index");
          }
 
-         var addResult = await _userManager.AddToRoleAsync(user, role.Name);
-         if (!addResult.Succeeded)
+         foreach (var error in result.Errors)
          {
-            Console.WriteLine("❌ Lỗi khi thêm quyền mới.");
-            return BadRequest("Không thể cập nhật quyền mới.");
+            ModelState.AddModelError(string.Empty, error.Description);
          }
 
-         return RedirectToAction("ManageUsers");
+         return View(model);
       }
    }
 }

@@ -8,9 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
-   options.IdleTimeout = TimeSpan.FromMinutes(30);
-   options.Cookie.HttpOnly = true;
-   options.Cookie.IsEssential = true;
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
 });
 
 // Cấu hình dịch vụ (Services)
@@ -29,9 +29,9 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
-   options.LoginPath = $"/Identity/Account/Login";
-   options.LogoutPath = $"/Identity/Account/Logout";
-   options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+    options.LoginPath = $"/Identity/Account/Login";
+    options.LogoutPath = $"/Identity/Account/Logout";
+    options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
 });
 
 // Cấu hình Dependency Injection (DI)
@@ -44,7 +44,7 @@ var app = builder.Build();
 // Middleware pipeline
 if (!app.Environment.IsDevelopment())
 {
-   app.UseExceptionHandler("/Home/Error");
+    app.UseExceptionHandler("/Home/Error");
 }
 
 app.UseStaticFiles();

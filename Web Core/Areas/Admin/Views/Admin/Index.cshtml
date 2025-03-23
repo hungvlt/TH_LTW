@@ -4,11 +4,25 @@
 
 @{
    ViewData["Title"] = "Quản lý người dùng";
+   Layout = "~/Views/Shared/_Layout.cshtml";
    var roles = ViewBag.Roles as List<IdentityRole> ?? new List<IdentityRole>();
    var userRoles = ViewBag.UserRoles as Dictionary<string, string> ?? new Dictionary<string, string>();
 }
 
-<h2 class="mb-4 text-center text-uppercase fw-bold">Quản lý người dùng</h2>
+<div class="d-flex justify-content-between align-items-center mb-3">
+   <h2 class="text-uppercase fw-bold">Quản lý người dùng</h2>
+   @if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+   <a href="@Url.Action("RegisterEmployee", "Admin", new { area = "Admin" })" class="btn btn-success">
+    <i class="fas fa-user-plus"></i> Tạo tài khoản nhân viên
+   </a>
+</div>
 
 <div class="table-responsive">
    <table class="table table-hover align-middle text-center">
@@ -37,7 +51,7 @@
                   }
                   else
                   {
-                     <span class="badge bg-secondary">Chưa có quyền</span>
+                     <span class="badge bg-warning text-dark">Chưa có quyền</span>
                   }
                </td>
                <td>
@@ -47,7 +61,7 @@
                   }
                   else
                   {
-                     <form method="post" asp-action="UpdateUserRole" asp-area="Admin" asp-controller="Admin" class="d-flex gap-2 align-items-center">
+                     <form method="post" asp-action="Index" asp-area="Admin" asp-controller="Admin" class="d-flex gap-2 align-items-center update-role-form">
                         <input type="hidden" name="userId" value="@user.Id" />
                         <select name="roleId" class="form-select w-auto">
                            @foreach (var role in roles)
@@ -68,11 +82,14 @@
 </div>
 
 <script>
-   document.querySelectorAll('form').forEach(form => {
+   document.querySelectorAll('.update-role-form').forEach(form => {
        form.addEventListener('submit', function (event) {
-           let userId = this.querySelector('input[name="userId"]').value;
-           let roleId = this.querySelector('select[name="roleId"]').value;
-           console.log(`🔹 Gửi request: User ID = ${userId}, Role ID = ${roleId}`);
+           let userName = this.closest('tr').querySelector('td:first-child').textContent.trim();
+           let selectedRole = this.querySelector('select[name="roleId"] option:checked').textContent.trim();
+           if (!confirm(`Bạn có chắc chắn muốn thay đổi quyền của ${userName} thành ${selectedRole}?`)) {
+               event.preventDefault();
+           }
        });
    });
 </script>
+
