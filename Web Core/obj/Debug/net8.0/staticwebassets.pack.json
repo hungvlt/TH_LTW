@@ -1,6 +1,3022 @@
 {
   "Files": [
     {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/account-profile.html",
+      "PackagePath": "staticwebassets/admin-template/application/account-profile.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/calendar.html",
+      "PackagePath": "staticwebassets/admin-template/application/calendar.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/chat.html",
+      "PackagePath": "staticwebassets/admin-template/application/chat.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/cust_customer_list.html",
+      "PackagePath": "staticwebassets/admin-template/application/cust_customer_list.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/ecom_checkout.html",
+      "PackagePath": "staticwebassets/admin-template/application/ecom_checkout.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/ecom_product-add.html",
+      "PackagePath": "staticwebassets/admin-template/application/ecom_product-add.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/ecom_product-details.html",
+      "PackagePath": "staticwebassets/admin-template/application/ecom_product-details.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/ecom_product-list.html",
+      "PackagePath": "staticwebassets/admin-template/application/ecom_product-list.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/ecom_product.html",
+      "PackagePath": "staticwebassets/admin-template/application/ecom_product.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/user-card.html",
+      "PackagePath": "staticwebassets/admin-template/application/user-card.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/user-list.html",
+      "PackagePath": "staticwebassets/admin-template/application/user-list.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/application/user-profile.html",
+      "PackagePath": "staticwebassets/admin-template/application/user-profile.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/landing.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/landing.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/animate.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/animate.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/autoFill.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/autoFill.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/bootstrap-slider.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/bootstrap-slider.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/bootstrap-switch-button.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/bootstrap-switch-button.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/bootstrap.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/buttons.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/buttons.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/colReorder.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/colReorder.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/croppr.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/croppr.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/datepicker-bs5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/datepicker-bs5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/dragula.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/dragula.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/dropzone.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/dropzone.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/fixedColumns.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/fixedColumns.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/fixedHeader.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/fixedHeader.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/flatpickr.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/flatpickr.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/introjs.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/introjs.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/jsvectormap.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/jsvectormap.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/keyTable.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/keyTable.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/notifier.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/notifier.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/nouislider.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/nouislider.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/prism-coy.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/prism-coy.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/quill.bubble.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/quill.bubble.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/quill.core.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/quill.core.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/quill.snow.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/quill.snow.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/responsive.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/responsive.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/rowReorder.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/rowReorder.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/scroller.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/scroller.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/select.bootstrap5.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/select.bootstrap5.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/simplemde.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/simplemde.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/style.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/style.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/tiny-slider.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/tiny-slider.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/uppy.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/uppy.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/plugins/vanillatree.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/plugins/vanillatree.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/style-preset.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/style-preset.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/style.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/style.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/css/uikit.css",
+      "PackagePath": "staticwebassets/admin-template/assets/css/uikit.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/feather.css",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/feather.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/feather/feather.eot",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/feather/feather.eot"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/feather/feather.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/feather/feather.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/feather/feather.ttf",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/feather/feather.ttf"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/feather/feather.woff",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/feather/feather.woff"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome.css",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/fontawesome/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/fontawesome/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/inter/Inter-italic.var.woff2",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/inter/Inter-italic.var.woff2"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/inter/Inter-roman.var.woff2",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/inter/Inter-roman.var.woff2"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/inter/inter.css",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/inter/inter.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/material.css",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/material.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/material/material.woff2",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/material/material.woff2"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/phosphor/duotone/Phosphor-Duotone.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/phosphor/duotone/Phosphor-Duotone.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/phosphor/duotone/Phosphor-Duotone.ttf",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/phosphor/duotone/Phosphor-Duotone.ttf"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/phosphor/duotone/Phosphor-Duotone.woff",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/phosphor/duotone/Phosphor-Duotone.woff"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/phosphor/duotone/selection.json",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/phosphor/duotone/selection.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/phosphor/duotone/style.css",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/phosphor/duotone/style.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/tabler-icons.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/tabler-icons.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/tabler/tabler-icons.eot",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/tabler/tabler-icons.eot"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/tabler/tabler-icons.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/tabler/tabler-icons.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/tabler/tabler-icons.ttf",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/tabler/tabler-icons.ttf"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/tabler/tabler-icons.woff",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/tabler/tabler-icons.woff"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/fonts/tabler/tabler-icons.woff2",
+      "PackagePath": "staticwebassets/admin-template/assets/fonts/tabler/tabler-icons.woff2"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/card-discover.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/card-discover.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/card-master.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/card-master.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/card-visa.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/card-visa.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/card.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/card.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/cod.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/cod.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/completed.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/completed.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/discount.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/discount.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-catalog1.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-catalog1.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-catalog2.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-catalog2.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-catalog3.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-catalog3.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-empty-mail.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-empty-mail.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-1.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-1.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-10.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-10.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-11.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-11.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-12.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-12.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-2.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-2.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-3.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-3.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-4.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-4.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-5.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-5.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-6.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-6.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-7.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-7.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-8.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-8.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/img-gal-9.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/img-gal-9.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/mastercard.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/mastercard.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/paypal.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/paypal.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/prod-img-1.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/prod-img-1.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/prod-img-2.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/prod-img-2.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/prod-img-3.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/prod-img-3.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/prod-img-4.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/prod-img-4.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/prod-img-5.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/prod-img-5.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/prod-img-6.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/prod-img-6.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/prod-img-7.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/prod-img-7.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/prod-img-8.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/prod-img-8.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/prod-img-9.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/prod-img-9.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-1.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-1.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-10.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-10.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-11.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-11.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-12.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-12.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-2.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-2.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-3.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-3.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-4.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-4.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-5.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-5.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-6.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-6.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-7.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-7.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-8.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-8.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/profile-back-9.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/profile-back-9.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/application/visa.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/application/visa.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/authentication/facebook.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/authentication/facebook.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/authentication/google.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/authentication/google.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/authentication/img-auth-bg.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/authentication/img-auth-bg.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/authentication/twitter.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/authentication/twitter.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/customization/container.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/customization/container.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/customization/dark.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/customization/dark.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/customization/default.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/customization/default.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/customization/mini-menu.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/customization/mini-menu.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/customization/rtl.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/customization/rtl.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/customization/theme-color.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/customization/theme-color.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/favicon.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/favicon.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/img-navbar-card.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/img-navbar-card.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/bg-mockup-theme-1.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/bg-mockup-theme-1.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/bg-mockup-theme-2.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/bg-mockup-theme-2.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/bg-mockup-theme-3.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/bg-mockup-theme-3.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/bg-mockup-theme-4.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/bg-mockup-theme-4.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/bg-mockup-theme-5.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/bg-mockup-theme-5.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/bg-mockup-theme-6.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/bg-mockup-theme-6.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/bg-mockup-theme-7.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/bg-mockup-theme-7.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/bg-mockup-theme-8.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/bg-mockup-theme-8.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/bg-mockup-theme-9.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/bg-mockup-theme-9.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/client-01.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/client-01.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/client-02.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/client-02.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/client-03.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/client-03.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/client-04.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/client-04.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/client-05.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/client-05.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-bg-screen.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-bg-screen.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-demo1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-demo1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-demo2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-demo2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-demo3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-demo3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-main-theme-1.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-main-theme-1.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-main-theme-2.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-main-theme-2.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-main-theme-3.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-main-theme-3.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-main-theme-4.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-main-theme-4.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-main-theme-5.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-main-theme-5.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-main-theme-6.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-main-theme-6.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-main-theme-7.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-main-theme-7.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-main-theme-8.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-main-theme-8.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-main-theme-9.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-main-theme-9.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-msg.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-msg.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-element-widget.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-element-widget.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-feature1.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-feature1.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-feature2.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-feature2.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-feature3.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-feature3.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-footer-moke-1.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-footer-moke-1.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-footer-moke-2.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-footer-moke-2.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-footer-moke-3.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-footer-moke-3.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-footer-moke-4.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-footer-moke-4.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-footer-moke-5.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-footer-moke-5.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-footer-moke-6.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-footer-moke-6.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-footer-moke-7.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-footer-moke-7.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-footer-moke-8.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-footer-moke-8.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-footer-moke-9.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-footer-moke-9.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-headertech.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-headertech.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-dark-1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-dark-1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-dark-2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-dark-2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-dark-3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-dark-3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-dark-4.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-dark-4.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-dark-5.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-dark-5.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-dark-6.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-dark-6.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-dark-7.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-dark-7.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-dark-8.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-dark-8.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-dark-9.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-dark-9.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-light-1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-light-1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-light-2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-light-2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-light-3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-light-3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-light-4.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-light-4.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-light-5.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-light-5.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-light-6.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-light-6.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-light-7.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-light-7.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-light-8.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-light-8.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-theme-light-9.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-theme-light-9.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/landing/img-user1.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/landing/img-user1.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/l1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/l1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/l2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/l2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/l3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/l3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/l4.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/l4.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/l5.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/l5.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/l6.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/l6.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/mixin.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/mixin.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/sl1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/sl1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/sl2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/sl2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/sl3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/sl3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/sl4.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/sl4.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/sl5.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/sl5.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/sl6.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/sl6.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/smixin.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/smixin.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/v1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/v1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/v2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/v2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/v3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/v3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/light-box/v4.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/light-box/v4.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/logo-dark.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/logo-dark.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/logo-icon.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/logo-icon.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/logo-white.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/logo-white.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/mega-menu/back.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/mega-menu/back.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/mega-menu/chart.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/mega-menu/chart.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/notification/clock-48.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/notification/clock-48.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/notification/high_priority-48.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/notification/high_priority-48.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/notification/medium_priority-48.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/notification/medium_priority-48.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/notification/ok-48.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/notification/ok-48.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/notification/survey-48.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/notification/survey-48.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/Error404.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/Error404.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/Error500.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/Error500.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/TwoCone.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/TwoCone.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/codedthemes-logo.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/codedthemes-logo.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/coming-soon.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/coming-soon.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/img-megamenu.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/img-megamenu.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/img-price-extended.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/img-price-extended.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/img-price-standard.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/img-price-standard.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/img-price-standardplus.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/img-price-standardplus.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/under-construction-2.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/under-construction-2.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/pages/worldMap.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/pages/worldMap.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/profile/card.png",
+      "PackagePath": "staticwebassets/admin-template/assets/images/profile/card.png"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/profile/img-profile-bottom.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/profile/img-profile-bottom.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/profile/img-profile-top.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/profile/img-profile-top.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/slider/header-bg.07dde975.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/slider/header-bg.07dde975.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/slider/img-slide-1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/slider/img-slide-1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/slider/img-slide-2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/slider/img-slide-2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/slider/img-slide-3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/slider/img-slide-3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/slider/img-slide-4.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/slider/img-slide-4.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/slider/img-slide-5.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/slider/img-slide-5.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/slider/img-slide-6.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/slider/img-slide-6.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/slider/img-slide-7.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/slider/img-slide-7.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/user/avatar-1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/user/avatar-1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/user/avatar-10.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/user/avatar-10.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/user/avatar-2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/user/avatar-2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/user/avatar-3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/user/avatar-3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/user/avatar-4.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/user/avatar-4.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/user/avatar-5.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/user/avatar-5.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/user/avatar-6.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/user/avatar-6.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/user/avatar-7.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/user/avatar-7.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/user/avatar-8.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/user/avatar-8.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/user/avatar-9.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/user/avatar-9.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/AUSTRALIA.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/AUSTRALIA.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/BRAZIL.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/BRAZIL.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/GERMANY.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/GERMANY.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/PHONE1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/PHONE1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/PHONE2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/PHONE2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/PHONE3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/PHONE3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/PHONE4.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/PHONE4.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/UK.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/UK.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/USA.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/USA.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/dashborad-1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/dashborad-1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/dashborad-2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/dashborad-2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/dashborad-3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/dashborad-3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/p1.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/p1.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/p2.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/p2.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/p3.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/p3.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/p4.jpg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/p4.jpg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/reader.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/reader.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/images/widget/target.svg",
+      "PackagePath": "staticwebassets/admin-template/assets/images/widget/target.svg"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/component.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/component.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/fonts/custom-font.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/fonts/custom-font.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/layout-compact.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/layout-compact.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/layout-horizontal.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/layout-horizontal.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/layout-tab.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/layout-tab.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/ac-alert.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/ac-alert.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/ac-datepicker.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/ac-datepicker.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/ac-notification.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/ac-notification.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/ac-rangeslider.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/ac-rangeslider.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/ac-slider.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/ac-slider.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/ac-tour.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/ac-tour.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/ac-treeview.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/ac-treeview.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/calendar.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/calendar.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/canada.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/canada.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/chart-apex.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/chart-apex.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/dashboard-analytics.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/dashboard-analytics.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/dashboard-default.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/dashboard-default.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/form-masking-custom.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/form-masking-custom.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/form-validation.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/form-validation.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/iraq.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/iraq.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/italy.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/italy.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/map-vector.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/map-vector.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/page-croper.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/page-croper.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/russia.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/russia.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/spain.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/spain.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/us-aea-en.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/us-aea-en.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/us-lcc-en.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/us-lcc-en.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/us-merc-en.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/us-merc-en.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/us-mill-en.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/us-mill-en.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pages/w-chart.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pages/w-chart.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/pcoded.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/pcoded.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/Jarallax.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/Jarallax.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/apexcharts.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/apexcharts.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/autoFill.bootstrap5.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/autoFill.bootstrap5.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/bootstrap-slider.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/bootstrap-slider.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/bootstrap-switch-button.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/bootstrap-switch-button.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/bootstrap.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/bouncer.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/bouncer.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/buttons.bootstrap5.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/buttons.bootstrap5.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/buttons.colVis.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/buttons.colVis.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/buttons.html5.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/buttons.html5.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/buttons.print.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/buttons.print.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/choices.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/choices.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/ckeditor/balloon/ckeditor.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/ckeditor/balloon/ckeditor.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/ckeditor/classic/ckeditor.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/ckeditor/classic/ckeditor.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/ckeditor/document/ckeditor.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/ckeditor/document/ckeditor.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/ckeditor/inline/ckeditor.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/ckeditor/inline/ckeditor.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/clipboard.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/clipboard.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/croppr.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/croppr.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dataTables.autoFill.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dataTables.autoFill.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dataTables.buttons.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dataTables.colReorder.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dataTables.colReorder.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dataTables.fixedColumns.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dataTables.fixedColumns.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dataTables.fixedHeader.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dataTables.fixedHeader.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dataTables.keyTable.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dataTables.keyTable.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dataTables.responsive.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dataTables.rowReorder.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dataTables.rowReorder.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dataTables.select.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dataTables.select.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/datepicker-full.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/datepicker-full.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dragula.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dragula.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/dropzone-amd-module.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/dropzone-amd-module.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/feather.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/feather.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/flatpickr.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/flatpickr.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/gmaps.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/gmaps.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/imask.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/imask.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/index.global.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/index.global.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/intro.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/intro.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/isotope.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/jquery.dataTables.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/jsvectormap.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/jsvectormap.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/jszip.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/jszip.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/keyTable.bootstrap5.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/keyTable.bootstrap5.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/module.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/module.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/notifier.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/notifier.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/nouislider.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/nouislider.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/pdfmake.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/pdfmake.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/popper.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/popper.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/prism.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/prism.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/quill.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/quill.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/responsive.bootstrap5.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/responsive.bootstrap5.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/scroller.bootstrap5.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/scroller.bootstrap5.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/simple-datatables.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/simple-datatables.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/simplebar.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/simplebar.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/simplemde.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/simplemde.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/sweetalert2.all.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tiny-slider.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tiny-slider.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/CHANGELOG.md",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/CHANGELOG.md"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/README.md",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/README.md"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/bower.json",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/bower.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/composer.json",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/composer.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/icons/default/icons.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/icons/default/icons.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/icons/default/icons.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/icons/default/icons.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/icons/default/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/icons/default/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/license.txt",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/license.txt"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/models/dom/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/models/dom/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/models/dom/model.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/models/dom/model.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/models/dom/model.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/models/dom/model.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/package.json",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/package.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/accordion/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/accordion/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/accordion/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/accordion/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/accordion/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/accordion/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/advlist/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/advlist/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/advlist/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/advlist/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/advlist/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/advlist/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/anchor/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/anchor/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/anchor/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/anchor/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/anchor/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/anchor/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/autolink/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/autolink/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/autolink/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/autolink/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/autolink/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/autolink/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/autoresize/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/autoresize/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/autoresize/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/autoresize/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/autoresize/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/autoresize/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/autosave/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/autosave/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/autosave/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/autosave/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/autosave/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/autosave/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/charmap/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/charmap/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/charmap/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/charmap/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/charmap/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/charmap/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/code/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/code/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/code/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/code/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/code/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/code/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/codesample/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/codesample/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/codesample/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/codesample/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/codesample/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/codesample/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/directionality/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/directionality/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/directionality/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/directionality/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/directionality/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/directionality/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/emoticons/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/emoticons/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/emoticons/js/emojiimages.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/emoticons/js/emojiimages.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/emoticons/js/emojiimages.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/emoticons/js/emojiimages.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/emoticons/js/emojis.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/emoticons/js/emojis.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/emoticons/js/emojis.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/emoticons/js/emojis.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/emoticons/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/emoticons/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/emoticons/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/emoticons/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/fullscreen/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/fullscreen/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/fullscreen/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/fullscreen/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/fullscreen/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/fullscreen/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ar.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ar.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/bg_BG.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/bg_BG.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ca.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ca.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/cs.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/cs.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/da.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/da.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/de.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/de.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/el.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/el.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/en.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/en.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/es.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/es.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/eu.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/eu.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/fa.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/fa.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/fi.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/fi.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/fr_FR.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/fr_FR.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/he_IL.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/he_IL.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/hi.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/hi.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/hr.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/hr.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/hu_HU.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/hu_HU.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/id.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/id.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/it.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/it.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ja.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ja.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/kk.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/kk.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ko_KR.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ko_KR.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ms.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ms.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/nb_NO.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/nb_NO.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/nl.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/nl.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/pl.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/pl.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/pt_BR.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/pt_BR.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/pt_PT.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/pt_PT.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ro.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ro.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ru.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/ru.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/sk.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/sk.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/sl_SI.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/sl_SI.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/sv_SE.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/sv_SE.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/th_TH.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/th_TH.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/tr.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/tr.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/uk.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/uk.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/vi.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/vi.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/zh_CN.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/zh_CN.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/zh_TW.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/js/i18n/keynav/zh_TW.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/help/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/help/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/image/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/image/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/image/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/image/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/image/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/image/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/importcss/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/importcss/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/importcss/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/importcss/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/importcss/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/importcss/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/insertdatetime/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/insertdatetime/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/insertdatetime/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/insertdatetime/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/insertdatetime/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/insertdatetime/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/link/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/link/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/link/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/link/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/link/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/link/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/lists/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/lists/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/lists/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/lists/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/lists/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/lists/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/media/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/media/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/media/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/media/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/media/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/media/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/nonbreaking/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/nonbreaking/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/nonbreaking/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/nonbreaking/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/nonbreaking/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/nonbreaking/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/pagebreak/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/pagebreak/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/pagebreak/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/pagebreak/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/pagebreak/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/pagebreak/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/preview/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/preview/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/preview/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/preview/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/preview/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/preview/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/print/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/print/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/quickbars/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/quickbars/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/quickbars/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/quickbars/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/quickbars/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/quickbars/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/save/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/save/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/save/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/save/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/save/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/save/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/searchreplace/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/searchreplace/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/searchreplace/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/searchreplace/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/searchreplace/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/searchreplace/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/table/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/table/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/table/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/table/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/table/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/table/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/template/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/template/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/template/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/template/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/template/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/template/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/visualblocks/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/visualblocks/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/visualblocks/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/visualblocks/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/visualblocks/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/visualblocks/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/visualchars/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/visualchars/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/visualchars/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/visualchars/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/visualchars/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/visualchars/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/wordcount/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/wordcount/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/wordcount/plugin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/wordcount/plugin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/plugins/wordcount/plugin.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/plugins/wordcount/plugin.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/dark/content.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/dark/content.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/dark/content.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/dark/content.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/dark/content.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/dark/content.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/default/content.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/default/content.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/default/content.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/default/content.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/default/content.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/default/content.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/document/content.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/document/content.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/document/content.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/document/content.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/document/content.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/document/content.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5-dark/content.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5-dark/content.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5-dark/content.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5-dark/content.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5-dark/content.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5-dark/content.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5/content.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5/content.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5/content.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5/content.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5/content.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/tinymce-5/content.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/writer/content.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/writer/content.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/writer/content.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/writer/content.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/content/writer/content.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/content/writer/content.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.inline.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.inline.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.inline.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.inline.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.inline.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.inline.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/content.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.shadowdom.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.shadowdom.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.shadowdom.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.shadowdom.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.inline.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.inline.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.inline.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.inline.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.inline.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.inline.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/content.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.shadowdom.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.shadowdom.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.shadowdom.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.shadowdom.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/oxide/skin.shadowdom.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.inline.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.inline.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.inline.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.inline.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.inline.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.inline.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/content.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.inline.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.inline.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.inline.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.inline.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.inline.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.inline.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/content.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.shadowdom.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.shadowdom.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.shadowdom.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.shadowdom.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/skins/ui/tinymce-5/skin.shadowdom.min.css"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/themes/silver/index.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/themes/silver/index.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/themes/silver/theme.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/themes/silver/theme.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/themes/silver/theme.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/themes/silver/theme.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/tinymce.d.ts",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/tinymce.d.ts"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/tinymce.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/tinymce.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/tinymce/tinymce.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/tinymce/tinymce.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/type-ahead.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/type-ahead.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/uppy.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/uppy.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/vanillatree.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/vanillatree.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/vfs_fonts.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/vfs_fonts.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/wNumb.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/wNumb.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/world-merc.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/world-merc.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/world.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/world.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/js/plugins/wow.min.js",
+      "PackagePath": "staticwebassets/admin-template/assets/js/plugins/wow.min.js"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/json/2500.txt",
+      "PackagePath": "staticwebassets/admin-template/assets/json/2500.txt"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/json/datatable.column.json",
+      "PackagePath": "staticwebassets/admin-template/assets/json/datatable.column.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/json/datatable.json",
+      "PackagePath": "staticwebassets/admin-template/assets/json/datatable.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/json/file-upload.php",
+      "PackagePath": "staticwebassets/admin-template/assets/json/file-upload.php"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/json/lazy.json",
+      "PackagePath": "staticwebassets/admin-template/assets/json/lazy.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/json/root.json",
+      "PackagePath": "staticwebassets/admin-template/assets/json/root.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/json/typehead/countries.json",
+      "PackagePath": "staticwebassets/admin-template/assets/json/typehead/countries.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/json/typehead/movies.json",
+      "PackagePath": "staticwebassets/admin-template/assets/json/typehead/movies.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/json/typehead/nba.json",
+      "PackagePath": "staticwebassets/admin-template/assets/json/typehead/nba.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/assets/json/typehead/nhl.json",
+      "PackagePath": "staticwebassets/admin-template/assets/json/typehead/nhl.json"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/chart/chart-apex.html",
+      "PackagePath": "staticwebassets/admin-template/chart/chart-apex.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/chart/map-vector.html",
+      "PackagePath": "staticwebassets/admin-template/chart/map-vector.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/dashboard/analytics.html",
+      "PackagePath": "staticwebassets/admin-template/dashboard/analytics.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/dashboard/index.html",
+      "PackagePath": "staticwebassets/admin-template/dashboard/index.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/demo/layout-compact.html",
+      "PackagePath": "staticwebassets/admin-template/demo/layout-compact.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/demo/layout-horizontal.html",
+      "PackagePath": "staticwebassets/admin-template/demo/layout-horizontal.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/demo/layout-tab.html",
+      "PackagePath": "staticwebassets/admin-template/demo/layout-tab.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/demo/layout-vertical.html",
+      "PackagePath": "staticwebassets/admin-template/demo/layout-vertical.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/ac_alert.html",
+      "PackagePath": "staticwebassets/admin-template/elements/ac_alert.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/ac_datepicker-component.html",
+      "PackagePath": "staticwebassets/admin-template/elements/ac_datepicker-component.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/ac_lightbox.html",
+      "PackagePath": "staticwebassets/admin-template/elements/ac_lightbox.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/ac_modal.html",
+      "PackagePath": "staticwebassets/admin-template/elements/ac_modal.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/ac_notification.html",
+      "PackagePath": "staticwebassets/admin-template/elements/ac_notification.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/ac_rangeslider.html",
+      "PackagePath": "staticwebassets/admin-template/elements/ac_rangeslider.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/ac_slider.html",
+      "PackagePath": "staticwebassets/admin-template/elements/ac_slider.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/ac_syntax_highlighter.html",
+      "PackagePath": "staticwebassets/admin-template/elements/ac_syntax_highlighter.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/ac_tour.html",
+      "PackagePath": "staticwebassets/admin-template/elements/ac_tour.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/ac_treeview.html",
+      "PackagePath": "staticwebassets/admin-template/elements/ac_treeview.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_alert.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_alert.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_badges.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_badges.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_breadcrumb.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_breadcrumb.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_button.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_button.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_card.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_card.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_carousel.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_carousel.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_collapse.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_collapse.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_color.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_color.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_dropdowns.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_dropdowns.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_extra.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_extra.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_list-group.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_list-group.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_modal.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_modal.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_offcanvas.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_offcanvas.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_pagination.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_pagination.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_progress.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_progress.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_spinner.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_spinner.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_tabs.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_tabs.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_toasts.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_toasts.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_tooltip-popover.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_tooltip-popover.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/bc_typography.html",
+      "PackagePath": "staticwebassets/admin-template/elements/bc_typography.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/icon-custom.html",
+      "PackagePath": "staticwebassets/admin-template/elements/icon-custom.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/icon-feather.html",
+      "PackagePath": "staticwebassets/admin-template/elements/icon-feather.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/icon-fontawesome.html",
+      "PackagePath": "staticwebassets/admin-template/elements/icon-fontawesome.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/icon-material.html",
+      "PackagePath": "staticwebassets/admin-template/elements/icon-material.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/icon-phosphor.html",
+      "PackagePath": "staticwebassets/admin-template/elements/icon-phosphor.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/elements/icon-tabler.html",
+      "PackagePath": "staticwebassets/admin-template/elements/icon-tabler.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/editor-balloon.html",
+      "PackagePath": "staticwebassets/admin-template/forms/editor-balloon.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/editor-classic.html",
+      "PackagePath": "staticwebassets/admin-template/forms/editor-classic.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/editor-document.html",
+      "PackagePath": "staticwebassets/admin-template/forms/editor-document.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/editor-inline.html",
+      "PackagePath": "staticwebassets/admin-template/forms/editor-inline.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/file-upload.html",
+      "PackagePath": "staticwebassets/admin-template/forms/file-upload.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form-validation.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form-validation.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_basic.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_basic.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_checkbox.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_checkbox.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_choices.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_choices.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_clipboard.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_clipboard.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_datepicker.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_datepicker.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_daterangepicker.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_daterangepicker.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_flu-uppy.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_flu-uppy.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_input_group.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_input_group.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_inputmask.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_inputmask.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_lay-actionbars.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_lay-actionbars.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_lay-default.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_lay-default.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_lay-multicolumn.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_lay-multicolumn.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_lay-stickyactionbars.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_lay-stickyactionbars.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_markdown.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_markdown.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_megaoption.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_megaoption.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_nouislider.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_nouislider.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_quill.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_quill.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_radio.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_radio.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_recaptcha.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_recaptcha.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_switch.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_switch.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_switchjs.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_switchjs.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_timepicker.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_timepicker.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_tinymce.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_tinymce.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form2_typeahead.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form2_typeahead.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form_elements.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form_elements.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/form_floating.html",
+      "PackagePath": "staticwebassets/admin-template/forms/form_floating.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/forms/image_crop.html",
+      "PackagePath": "staticwebassets/admin-template/forms/image_crop.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/index.html",
+      "PackagePath": "staticwebassets/admin-template/index.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/breadcrumb.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/breadcrumb.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/component/component-breadcrumb.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/component/component-breadcrumb.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/component/component-header.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/component/component-header.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/component/component-menu-list.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/component/component-menu-list.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/component/layout-component-footer-js.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/component/layout-component-footer-js.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/customizer.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/customizer.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/footer-block.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/footer-block.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/footer-js.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/footer-js.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/head-css.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/head-css.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/head-page-meta.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/head-page-meta.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/header-content.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/header-content.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/layout-compact.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/layout-compact.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/layout-tab.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/layout-tab.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/layout-vertical.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/layout-vertical.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/loader.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/loader.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/menu-list.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/menu-list.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/sidebar-compact.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/sidebar-compact.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/sidebar-tab.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/sidebar-tab.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/sidebar.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/sidebar.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/layouts/topbar.html",
+      "PackagePath": "staticwebassets/admin-template/layouts/topbar.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/other/sample-page.html",
+      "PackagePath": "staticwebassets/admin-template/other/sample-page.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/check-mail.html",
+      "PackagePath": "staticwebassets/admin-template/pages/check-mail.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/code-verification.html",
+      "PackagePath": "staticwebassets/admin-template/pages/code-verification.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/coming-soon.html",
+      "PackagePath": "staticwebassets/admin-template/pages/coming-soon.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/contact-us.html",
+      "PackagePath": "staticwebassets/admin-template/pages/contact-us.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/error-404.html",
+      "PackagePath": "staticwebassets/admin-template/pages/error-404.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/error-500.html",
+      "PackagePath": "staticwebassets/admin-template/pages/error-500.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/forgot-password.html",
+      "PackagePath": "staticwebassets/admin-template/pages/forgot-password.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/landing.html",
+      "PackagePath": "staticwebassets/admin-template/pages/landing.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/login.html",
+      "PackagePath": "staticwebassets/admin-template/pages/login.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/price.html",
+      "PackagePath": "staticwebassets/admin-template/pages/price.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/register.html",
+      "PackagePath": "staticwebassets/admin-template/pages/register.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/reset-password.html",
+      "PackagePath": "staticwebassets/admin-template/pages/reset-password.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/pages/under-construction.html",
+      "PackagePath": "staticwebassets/admin-template/pages/under-construction.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_advance.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_advance.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_api.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_api.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_basic.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_basic.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_autofill.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_autofill.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_basic_buttons.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_basic_buttons.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_col_reorder.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_col_reorder.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_export_buttons.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_export_buttons.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_fixed_columns.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_fixed_columns.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_fixed_header.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_fixed_header.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_key_table.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_key_table.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_responsive.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_responsive.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_row_reorder.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_row_reorder.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_scroller.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_scroller.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_ext_select.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_ext_select.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_plugin.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_plugin.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_sources.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_sources.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/dt_styling.html",
+      "PackagePath": "staticwebassets/admin-template/table/dt_styling.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_bootstrap.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_bootstrap.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_border.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_border.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_dt-add-rows.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_dt-add-rows.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_dt-column-manipulation.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_dt-column-manipulation.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_dt-datetime-sorting.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_dt-datetime-sorting.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_dt-dynamic-import.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_dt-dynamic-import.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_dt-export.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_dt-export.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_dt-fetch-api.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_dt-fetch-api.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_dt-filters.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_dt-filters.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_dt-methods.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_dt-methods.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_dt-render-column-cells.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_dt-render-column-cells.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_dt-simple.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_dt-simple.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_sizing.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_sizing.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/table/tbl_styling.html",
+      "PackagePath": "staticwebassets/admin-template/table/tbl_styling.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/widget/w_chart.html",
+      "PackagePath": "staticwebassets/admin-template/widget/w_chart.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/widget/w_data.html",
+      "PackagePath": "staticwebassets/admin-template/widget/w_data.html"
+    },
+    {
+      "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/admin-template/widget/w_statistics.html",
+      "PackagePath": "staticwebassets/admin-template/widget/w_statistics.html"
+    },
+    {
       "Id": "/Users/thehung/TH_LTW/Web Core/wwwroot/css/bootstrap-icons.css",
       "PackagePath": "staticwebassets/css/bootstrap-icons.css"
     },

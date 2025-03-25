@@ -4,7 +4,7 @@
 
 @{
    ViewData["Title"] = "Quản lý người dùng";
-   Layout = "~/Views/Shared/_Layout.cshtml";
+   Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
    var roles = ViewBag.Roles as List<IdentityRole> ?? new List<IdentityRole>();
    var userRoles = ViewBag.UserRoles as Dictionary<string, string> ?? new Dictionary<string, string>();
 }

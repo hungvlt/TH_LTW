@@ -124,10 +124,12 @@ namespace Web_Core.Areas.Identity.Pages.Account
 
          Input = new()
          {
-            RoleList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem
+            RoleList = _roleManager.Roles
+            .Where(r => r.Name != SD.Role_Admin && r.Name != SD.Role_Company) // Loại bỏ Admin & Company
+            .Select(i => new SelectListItem
             {
-               Text = i,
-               Value = i
+               Text = i.Name,
+               Value = i.Name
             })
          };
 
@@ -152,13 +154,13 @@ namespace Web_Core.Areas.Identity.Pages.Account
             {
                _logger.LogInformation("User created a new account with password.");
 
-               if (!String.IsNullOrEmpty(Input.Role))
+               if (!String.IsNullOrEmpty(Input.Role) && Input.Role != SD.Role_Admin && Input.Role != SD.Role_Company)
                {
                   await _userManager.AddToRoleAsync(user, Input.Role);
                }
                else
                {
-                  await _userManager.AddToRoleAsync(user, SD.Role_Customer);
+                  await _userManager.AddToRoleAsync(user, SD.Role_Customer); // Mặc định Customer nếu không hợp lệ
                }
 
                var userId = await _userManager.GetUserIdAsync(user);

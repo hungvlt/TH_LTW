@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>@ViewData["Title"] - Admin Panel</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+
+   <!-- [Favicon] icon -->
+   <link rel="icon" href="~/admin-template/assets/images/favicon.svg" type="image/x-icon">
+
+   <!-- [Google Font] -->
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap"
+      id="main-font-link">
+
+   <!-- [CSS Files] -->
+   <link rel="stylesheet" href="~/admin-template/assets/fonts/tabler-icons.min.css">
+   <link rel="stylesheet" href="~/admin-template/assets/fonts/feather.css">
+   <link rel="stylesheet" href="~/admin-template/assets/fonts/fontawesome.css">
+   <link rel="stylesheet" href="~/admin-template/assets/fonts/material.css">
+   <link rel="stylesheet" href="~/admin-template/assets/css/plugins/animate.min.css">
+   <link rel="stylesheet" href="~/admin-template/assets/css/style.css">
+   <link rel="stylesheet" href="~/admin-template/assets/css/style-preset.css">
+</head>
+
+<body>
+
+   <!-- [Header] -->
+   <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+         <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Index", "Dashboard", new { area = "Admin" })">
+               <img src="~/admin-template/assets/images/logo-white.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link"
+                        href="@Url.Action("Index", "Dashboard", new { area = "Admin" })">Dashboard</a></li>
+                  <li class="nav-item"><a class="nav-link"
+                        href="@Url.Action("Logout", "Account", new { area = "Admin" })">Logout</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <!-- [Main Content] -->
+   <div class="container mt-4">
+      @RenderBody()
+   </div>
+
+   <!-- [Footer] -->
+   <footer class="footer text-center mt-4 py-3 bg-dark text-light">
+      <div class="container">
+         &copy; 2025 - Admin Panel - All rights reserved.
+      </div>
+   </footer>
+
+   <!-- [JS Files] -->
+   <script src="~/admin-template/assets/js/plugins/popper.min.js"></script>
+   <script src="~/admin-template/assets/js/plugins/bootstrap.min.js"></script>
+   <script src="~/admin-template/assets/js/plugins/simplebar.min.js"></script>
+   <script src="~/admin-template/assets/js/pcoded.js"></script>
+   <script src="~/admin-template/assets/js/plugins/feather.min.js"></script>
+
+   @RenderSection("Scripts", required: false)
+</body>
+
+</html>

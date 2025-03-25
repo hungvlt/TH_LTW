@@ -20,8 +20,8 @@
 				<td class="text-center">
 					@if (!string.IsNullOrEmpty(product.ImageUrl))
 					{
-						<img src="@product.ImageUrl" alt="Ảnh sản phẩm"
-							  class="img-thumbnail rounded" style="width: 80px; height: 80px; object-fit: cover;" />
+						<img src="@product.ImageUrl" alt="Ảnh sản phẩm" class="img-thumbnail rounded"
+							style="width: 80px; height: 80px; object-fit: cover;" />
 					}
 				</td>
 
@@ -31,8 +31,12 @@
 				<td>@product.Category?.Name</td>
 				<td class="text-center">
 					<a asp-action="Display" asp-route-id="@product.Id" class="btn btn-info btn-sm">Xem</a>
-					<a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning btn-sm">Sửa</a>
-					<a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger btn-sm">Xóa</a>
+
+					@if (User.IsInRole("Admin") || User.IsInRole("Employee"))
+					{
+						<a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning btn-sm">Sửa</a>
+						<a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger btn-sm">Xóa</a>
+					}
 				</td>
 			</tr>
 		}
@@ -45,14 +49,18 @@
 		<option value="">Tất cả</option>
 		@foreach (var category in ViewBag.Categories)
 		{
-			<option value="@category.Value" selected="@(category.Value == ViewBag.SelectedCategory?.ToString() ? "selected" : null)">
+			<option value="@category.Value"
+				selected="@(category.Value == ViewBag.SelectedCategory?.ToString() ? "selected" : null)">
 				@category.Text
 			</option>
 		}
 	</select>
 </form>
 
-<a asp-action="Add" class="btn btn-primary mt-3">Thêm Sản Phẩm</a>
+@if (User.IsInRole("Admin") || User.IsInRole("Employee"))
+{
+	<a asp-action="Add" class="btn btn-primary mt-3">Thêm Sản Phẩm</a>
+}
 
 <!-- PHÂN TRANG -->
 @if (ViewBag.TotalPages > 1)

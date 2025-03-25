@@ -38,7 +38,7 @@ namespace Web_Core.Areas.Admin.Controllers
       public async Task<IActionResult> Index(string userId = null, string roleId = null)
       {
          var users = _userManager.Users.ToList();
-         var roles = _roleManager.Roles.ToList();
+         var roles = _roleManager.Roles.Where(r => r.Name != "Company").ToList();
          var userRoles = new Dictionary<string, string>();
 
          foreach (var user in users)
